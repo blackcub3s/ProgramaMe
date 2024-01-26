@@ -14,9 +14,16 @@ Per al problema que ens ocupa podem implementar el map en java d'aquesta forma:
 
 `Map<String, int> map_paisVots = new HashMap<String, int>();`
 
-Cal aprendre moltes coses noves: per exemple, per iterar un map
+Cal aprendre moltes coses noves. Per fer-lo eficient he estat, literalment, dues hores! Per iterar un map podem fer servir la sintaxis for each i un cop tenim cada parell <strong>clau:valor</strong> podem accedir al seu contingut mitjançant les funcions `.getKey()` i `.getValue()`:
 
-EXPLICAR
+```
+for (Map.Entry<String, Integer> parell_valors : elMeuMap.entrySet()) {                             
+       String clau = parell_valors.getKey(); 
+       int valor = parell_valors.getValue();
+} 
+```
+
+
 
 El problema l'he resolt així:
 
