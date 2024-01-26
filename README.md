@@ -4,6 +4,8 @@ En aquest repositori es resoldran problemes de la competició ProgramaMe. Tots e
 
 # 2. Escalfament pre-nadalenc (preparació 2024)
 
+Els problemes d'aquesta secció es poden trobar a la [pàgina de la programaMe](https://programame.com/documents/ProblemsSets/2024/ProgramaMe-2024-Navidad.pdf)) o bé en el [pdf pujat al repositori](/Escalfament%20PreNadalenc%202024/ProgramaMe-2024-Navidad.pdf).
+
 ## Problema A
 
 ## Problema B (Places disponibles per al mundial)
