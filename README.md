@@ -55,10 +55,9 @@ https://github.com/blackcub3s/ProgramaMe/blob/aad3b0229793ab84210b2d8c770ae1f6af
 
 ## [Problema C (Verificació de les entrades)](https://aceptaelreto.com/problem/statement.php?id=711)
 
-Aquest problema té la complicació d'haver de carregar cada un dels casos de prova (nombres) com strings i accedir a cada un dels digits d'aquests nombres individualment, passant de char a enter amb la funció `int n = Character.getNumericValue(nre.charAt(i));`. Fora d'això la complicació rau en recórrer les cadenes a l'esquerra i a la dreta del nombre en qüestió (cosa que he disseccioinat en dues funcions fora del main) i de vigilar en què és posició parell d'un digit dins el nombre (index senar, si indexem des de zero) o posició senar d'un digit dins el nombre del cas de prova (index parell, si indexem des de zero):
+Aquest problema no és tant complicat com el problema A. Té la complicació d'haver de carregar cada un dels casos de prova (nombres) com strings i accedir a cada un dels digits d'aquests nombres individualment, passant de char a enter amb la funció `int n = Character.getNumericValue(nre.charAt(i));`. També té la dificultat de recórrer les cadenes a l'esquerra i a la dreta del nombre en qüestió (cosa que he disseccionat en sengles funcions fora del main) i de vigilar què és posició parell d'un digit dins el nombre del cas de prova (index senar, si indexem des de zero) o posició senar d'un digit dins el nombre del cas de prova (index parell, si indexem des de zero):
 
 https://github.com/blackcub3s/ProgramaMe/blob/af783a65c2c086093d723f2f270f93b64efa5fd2/Escalfament%20PreNadalenc%202024/ProblemaC.java#L1-L52
-
 
 
 
