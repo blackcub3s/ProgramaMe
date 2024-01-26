@@ -8,13 +8,13 @@ Els problemes d'aquesta secció es poden trobar a la [pàgina de la programaMe](
 
 ## [Problema A (Elegint la seu del mundial)](https://aceptaelreto.com/problem/statement.php?id=709)
 
-Penso que la millor forma de resoldre aquest problema, penso, és amb una estructura de dades que permeti emmagatzemar parelles de clau : valor per acumular dins cada país de forma eficient accedint a les claus de forma eficient. En python l'estructura de dades que implementa això són els els diccionaris (`dict`), i en C++ i Java tenim els map. 
+Penso que la millor forma de resoldre aquest problema és mitjançant una estructura de dades que permeti emmagatzemar parelles de clau : valor de forma eficient, acumulant així per a cada país (el nom del qual no tenim d'avantmà) el nombre d'ocurrències -vots- que té per a cada cas de prova. En Python l'estructura de dades que permet implementar aquesta solució són els diccionaris (`dict`), i en C++ i Java tenim els map (d'estructura i us molt més complicada que els diccionaris de Python).
 
-Per al problema que ens ocupa podem implementar el map en java d'aquesta forma:
+En Java, podem declarar un map d'aquesta manera:
 
-`Map<String, int> map_paisVots = new HashMap<String, int>();`
+`Map<String, int> elMeuMap = new HashMap<String, int>();`
 
-Cal aprendre moltes coses noves. Per fer-lo eficient he estat, literalment, dues hores! Per iterar un map podem fer servir la sintaxis for each i un cop tenim cada parell <strong>clau:valor</strong> podem accedir al seu contingut mitjançant les funcions `.getKey()` i `.getValue()`. Cal que noteu que cal declarar cada <strong>parell_clauValor</strong> com un `Map.Entry<String, Integer>` i quan iterem al `elMeuMap` no podem iterarlo de manera com feiem amb els tipus de dades primitius sino que cal cridar una funció, `elMeuMap.entrySet()`, que retorna un `Set` o conjunt d'objectes `Map.Entry` (objectes clau:valor). Així la sintaxis quedaria:
+Cal aprendre moltes coses noves. Per fer-lo eficient he estat, literalment, dues hores! Per iterar un map podem fer servir la sintaxis for each i un cop tenim cada parell <strong>clau:valor</strong> podem accedir al seu contingut mitjançant les funcions `.getKey()` i `.getValue()`. Cal que noteu que és mecessari declarar cada <strong>parell_clauValor</strong> com un `Map.Entry<String, Integer>` i quan iterem al `elMeuMap` no podem iterarlo de manera com feiem amb els tipus de dades primitius sino que cal cridar una funció, `elMeuMap.entrySet()`, que retorna un `Set` o conjunt d'objectes `Map.Entry` (objectes clau:valor). Així, la sintaxis quedaria:
 
 ```
 for (Map.Entry<String, Integer> parell_clauValor : elMeuMap.entrySet()) {                             
@@ -22,7 +22,6 @@ for (Map.Entry<String, Integer> parell_clauValor : elMeuMap.entrySet()) {
        int valor = parell_clauValor.getValue();
 } 
 ```
-
 
 El problema l'he resolt així:
 
