@@ -1,14 +1,13 @@
 # 1. INTRODUCCIÓ
 
-En aquest repositori es resoldran problemes de la competició ProgramaMe. Tots els problemes pujats estaran validats amb el validador de la pàgina web https://aceptaelreto.com/, que implementa solucions als mateixos i compara els outputs amb la sortida dels programes que he fet i he publicat aquí.
+En aquest repositori es resoldran problemes de la competició ProgramaMe. Tots els problemes pujats estaran validats amb el validador de la pàgina web https://aceptaelreto.com/, que implementa solucions als mateixos i compara els outputs amb la sortida dels programes que he fet i he publicat aquí. Cada problema té al titol un link a la pàgina anterior que conté un compilador per a validar la solució i una còpia de l'enunciat.
 
 # 2. Escalfament pre-nadalenc (preparació 2024)
 
 Els problemes d'aquesta secció es poden trobar a la [pàgina de la programaMe](https://programame.com/documents/ProblemsSets/2024/ProgramaMe-2024-Navidad.pdf)) o bé en el [pdf pujat al repositori](/Escalfament%20PreNadalenc%202024/ProgramaMe-2024-Navidad.pdf).
 
-## Problema A (Elegint la seu del mundial)
+## [Problema A (Elegint la seu del mundial)](https://aceptaelreto.com/problem/statement.php?id=709)
 
-Valideu el problema i veieu l'enucniat aquí: [Problema A](https://aceptaelreto.com/problem/statement.php?id=709)
 Penso que la millor forma de resoldre aquest problema, penso, és amb una estructura de dades que permeti emmagatzemar parelles de clau : valor per acumular dins cada país de forma eficient accedint a les claus de forma eficient. En python l'estructura de dades que implementa això són els els diccionaris (`dict`), i en C++ i Java tenim els map. 
 
 Per al problema que ens ocupa podem implementar el map en java d'aquesta forma:
@@ -25,7 +24,6 @@ for (Map.Entry<String, Integer> parell_clauValor : elMeuMap.entrySet()) {
 ```
 
 
-
 El problema l'he resolt així:
 
 https://github.com/blackcub3s/ProgramaMe/blob/35584fcbe66f34466e57c62ed98f0995b5fc5ba6/Escalfament%20PreNadalenc%202024/ProblemaA.java#L3-L73
@@ -34,9 +32,9 @@ https://github.com/blackcub3s/ProgramaMe/blob/35584fcbe66f34466e57c62ed98f0995b5
 
 
 
-## Problema B (Places disponibles per al mundial)
+## [Problema B (Places disponibles per al mundial)](https://aceptaelreto.com/problem/statement.php?id=710)
 
-Aquest problema podeu validar-lo (i també veure'n l'enunciat) aquí a la pàgina d'aceptaElReto: [Problema B](https://aceptaelreto.com/problem/statement.php?id=710)
+
 
 El problema B implica primer absorbir el primer enter de la seqüència d'entrada (que indica el nombre de casos de prova del mundial que inclou el test). Un cop fet això ja es pot anar a processar cada cas de prova (cada línia). En cada cas de prova es demana senzillament fer una diferència entre la suma dels equips assignats a les sis confederacions del mundial i el nombre d'equips E que participen en el mundial i imprimir-la per pantalla. La meva solució en java (no mostro l'import de l'Scanner, veure arxiu sencer):
 
