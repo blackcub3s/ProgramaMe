@@ -8,6 +8,14 @@ Els problemes d'aquesta secció es poden trobar a la [pàgina de la programaMe](
 
 ## Problema A
 
+Penso que la millor forma de resoldre aquest problema, penso, és amb una estructura de dades que permeti emmagatzemar parelles de clau : valor i accedir al valor mitjançant la clau de forma eficient. En python tenim els diccionaris, i en C++ i Java tenim els map. 
+
+Per al problema que ens ocupa podem implementar el map en java d'aquesta forma:
+
+`Map<String, int> map_paisVots = new HashMap<String, int>();`
+
+
+
 ## Problema B (Places disponibles per al mundial)
 
 El problema B implica primer absorbir el primer enter de la seqüència d'entrada (que indica el nombre de casos de prova del mundial que inclou el test). Un cop fet això ja es pot anar a processar cada cas de prova (cada línia). En cada cas de prova es demana senzillament fer una diferència entre la suma dels equips assignats a les sis confederacions del mundial i el nombre d'equips E que participen en el mundial i imprimir-la per pantalla. La meva solució en java (no mostro l'import de l'Scanner, veure arxiu sencer):
