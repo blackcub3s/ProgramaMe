@@ -12,7 +12,7 @@ El problema B implica primer absorbir el primer enter de la seqüència d'entrad
 
 https://github.com/blackcub3s/ProgramaMe/blob/d41cbd36ec54a9ed44250de4baa1bf9b5fc7b004/Escalfament%20PreNadalenc%202024/ProblemaB.java#L9-L34
 
-La meva solució en C++:
+La meva solució en C++. C++ mo requereix netejar el búfer i requereix menys codi per fer-lo funcionar.
 
 https://github.com/blackcub3s/ProgramaMe/blob/aad3b0229793ab84210b2d8c770ae1f6af06df22/Escalfament%20PreNadalenc%202024/ProblemaB.cc#L1-L29
 
