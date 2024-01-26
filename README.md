@@ -6,13 +6,23 @@ En aquest repositori es resoldran problemes de la competició ProgramaMe. Tots e
 
 Els problemes d'aquesta secció es poden trobar a la [pàgina de la programaMe](https://programame.com/documents/ProblemsSets/2024/ProgramaMe-2024-Navidad.pdf)) o bé en el [pdf pujat al repositori](/Escalfament%20PreNadalenc%202024/ProgramaMe-2024-Navidad.pdf).
 
-## Problema A
+## Problema A (Elegint la seu del mundial)
 
-Penso que la millor forma de resoldre aquest problema, penso, és amb una estructura de dades que permeti emmagatzemar parelles de clau : valor i accedir al valor mitjançant la clau de forma eficient. En python tenim els diccionaris, i en C++ i Java tenim els map. 
+Penso que la millor forma de resoldre aquest problema, penso, és amb una estructura de dades que permeti emmagatzemar parelles de clau : valor per acumular dins cada país de forma eficient accedint a les claus de forma eficient. En python l'estructura de dades que implementa això són els els diccionaris (`dict`), i en C++ i Java tenim els map. 
 
 Per al problema que ens ocupa podem implementar el map en java d'aquesta forma:
 
 `Map<String, int> map_paisVots = new HashMap<String, int>();`
+
+Cal aprendre moltes coses noves: per exemple, per iterar un map
+
+EXPLICAR
+
+El problema l'he resolt així:
+
+https://github.com/blackcub3s/ProgramaMe/blob/35584fcbe66f34466e57c62ed98f0995b5fc5ba6/Escalfament%20PreNadalenc%202024/ProblemaA.java#L3-L73
+
+
 
 
 
