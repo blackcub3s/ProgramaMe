@@ -59,7 +59,18 @@ Aquest problema no és tant complicat com el problema A. Tot i així, sí que t�
 
 Aquest exercici també té la dificultat de recórrer les cadenes a l'esquerra i a la dreta del nombre en qüestió (cosa que he disseccionat en sengles funcions fora del main) i de vigilar què és posició parell d'un digit dins el nombre del cas de prova (index senar, si indexem des de zero) o posició senar d'un digit dins el nombre del cas de prova (index parell, si indexem des de zero):
 
-https://github.com/blackcub3s/ProgramaMe/blob/af783a65c2c086093d723f2f270f93b64efa5fd2/Escalfament%20PreNadalenc%202024/ProblemaC.java#L1-L52
+https://github.com/blackcub3s/ProgramaMe/blob/8c9db2b48edfde816eb743478d3d55c0973071d7/Escalfament%20PreNadalenc%202024/ProblemaC.java#L7-L53
+
+## [Problema D (Events dels partits)](https://aceptaelreto.com/problem/statement.php?id=712)
+
+
+
+
+
+
+
+
+
 
 
 
