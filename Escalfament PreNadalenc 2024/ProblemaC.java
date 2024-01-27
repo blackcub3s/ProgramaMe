@@ -4,8 +4,9 @@ import java.util.Scanner;
 public class ProblemaC {
     
     
-    public static int tractaParell(String nre, int i) {
-        int n = Character.getNumericValue(nre.charAt(i)); //tela amb aquesta funció, per passar de char a enter.
+    public static int tractaParell(String nre, int i) { 
+        //int n = Character.getNumericValue(nre.charAt(i)); //FUNCIO ESPECIFICA
+        int n = Integer.parseInt(""+nre.charAt(i)); //ALTERNATIVA GUAY A FUNCIÓ PREVIA
         
         int mesGranEsq = -1;
         for (int j = i - 1; j >= 0; --j) {
@@ -18,7 +19,8 @@ public class ProblemaC {
     
     
     public static int tractaImparell(String nre, int i) {
-        int n = Character.getNumericValue(nre.charAt(i)); //tela amb aquesta funció, per passar de char a enter.
+        //int n = Character.getNumericValue(nre.charAt(i));
+        int n = Integer.parseInt(""+nre.charAt(i));
         
         int menorDreta = 10;
         for (int j = i + 1; j < nre.length(); ++j) {
