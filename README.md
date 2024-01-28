@@ -74,8 +74,14 @@ https://github.com/blackcub3s/ProgramaMe/blob/6475385f22f524f7732a35f38497e55ad9
 
 
 
+## [Problema E (Fase de grups)](https://aceptaelreto.com/problem/statement.php?id=713)
+
+TO DO
 
 
+## [Problema F (Fase final)](https://aceptaelreto.com/problem/statement.php?id=714)
+
+TO DO
 
 
 
