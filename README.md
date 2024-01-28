@@ -1,6 +1,6 @@
 # 1. INTRODUCCIÓ
 
-En aquest repositori es resoldran problemes de la competició ProgramaMe. Tots els problemes pujats estaran validats amb el validador de la pàgina web https://aceptaelreto.com/, que implementa solucions als mateixos i compara els outputs amb la sortida dels programes que he fet i he publicat aquí. Cada problema té al titol un link a la pàgina anterior que conté un compilador per a validar la solució i una còpia de l'enunciat.
+En aquest repositori es resoldran problemes de la competició ProgramaMe. Tots els problemes pujats estan validats amb CA (resposta correcta) fent servir el validador de la pàgina web https://aceptaelreto.com/ que implementa solucions als mateixos i compara els outputs amb la sortida dels programes que he fet i he publicat aquí, a menys que s'indiqui el contrari en el comentari del problema. Cada problema té al titol un link a la pàgina mencionada, que conté el compilador per fer la validació del codi del qui l'intenti i una còpia de l'enunciat.
 
 # 2. Escalfament pre-nadalenc (preparació 2024)
 
