@@ -63,6 +63,10 @@ https://github.com/blackcub3s/ProgramaMe/blob/8c9db2b48edfde816eb743478d3d55c097
 
 ## [Problema D (Events dels partits)](https://aceptaelreto.com/problem/statement.php?id=712)
 
+Aquest problema no el va enviar ningú quan es va fer el repte de l'escalfament pre-nadalenc (de més de 900 persones). Era, doncs, un problema visiblement força complicat. En la solució que proposo aquí s'aconsegueix tenir en compte els casos de prova amb casos particulars com  `N==1` (un sol esdeveniment per partit, que a la pràctica és estrany, però es podria donar en els tests que facin per comprovar el nostre programa) i `N > 1` (més d'un esdeveniment per partit). En la solució proposada també es té en compte quan només es fa una consulta per a un esdeveniment del partit (`q == 1`), cridant exclusivament a la funció `fesSortidaPerConsulta_igual_a_1()`; mentre que per als casos (`q > 1`) fem ús de la funció `fesSortidaPerConsulta_amb_q_superior_a_1()` que requeria un comportament un tant complicat: fer una finestra que s'anava desplaçant al llarg del vector `v` (v el fem servir per guardar els diferents moments temporals on es van produint els events durant el partit) buscant el temps mínim en que es dóna la màxima densitat dels events `q` demanats en la consulta. 
+
+NOTA: Aquesta funció no he aconseguit que deixi de donar error per massa temps d'execució, ja que la funció `sc.hasNextInt()` no funciona com m'espero. No he aconseguit que aturi la sequència d'entrada de valors `N`, que és incerta ja que depèn del nombre de casos de prova i no ens els informen.
+
 
 
 
