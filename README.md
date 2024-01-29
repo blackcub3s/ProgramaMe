@@ -81,9 +81,11 @@ TO DO
 
 ## [Problema F (Fase final)](https://aceptaelreto.com/problem/statement.php?id=714)
 
-El progrema F l'he resolta
+Cada cas de prova del problema F l'he resolt creant un vector per als noms dels equips `noms` i un altre vector per als noms que marquen els equips `gols`, cada un d'ells amb tates posicions com els `N` equips que tenim inicialment. Res més començar el processament del cas de prova s'emplenen ambdós vectors amb els equps N equips (amb N compresa en tre 2 i 64, sempre sent potencia de dos). A la primera iteració simplement recorrem tot el vector de `gols` i mirem els guanyadors dels enfrentaments. Els guanyadors els reubiquem a la primera meitat de `noms` i amb la segona meitat del vector ja no hi treballarem.
 
+ A la següent iteració enfrentem entre sí els `N/2` equips que han guanyat en la fase anterior, guardats en la primera meitat del vector `noms`; i entrem pel canal estàndard d'entrada els `gols` de la següent fase, emmagatzemant-los en la primera meitat del vector `gols`. A la següent iteració o fase mirarem només la primera quarta part del vector `noms`, ja que tindrem `N/4` equips i podrem ara llegir pel canal estàndard d'entrada els gols d'aquesta següent fase, emmagatzemant-los en la primera meitat del vector `gols`... i així successivament fins a trobar-nos que només ens quedin dos equips i l'equip guanyador ens quedarà al primer element del vector `noms`:
 
+https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38b6afa0/Escalfament%20PreNadalenc%202024/ProblemaF.java#L9-L61
 
 
 <!-- NOTES AL PEU DE PÀGINA -->
