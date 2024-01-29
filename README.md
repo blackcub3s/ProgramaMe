@@ -102,7 +102,7 @@ ProblemaE.java:98: error: illegal start of expression
 
 El programa és el següent:
 
-POSA CODI
+https://github.com/blackcub3s/ProgramaMe/blob/e9036f9061d1e67f4f7b5201eea77524a9b5f5e6/Escalfament%20PreNadalenc%202024/ProblemaE%20(error%20CE).java#L17-L22
 
 ## [Problema F (Fase final)](https://aceptaelreto.com/problem/statement.php?id=714)
 
