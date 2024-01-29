@@ -76,7 +76,7 @@ Per fer aquest problema començem processant els casos de prova encapçalats per
 De cara a processar cada cas de prova, després d'engollir `N i Q` ens diuen que tenim `N*(N-1)/2` enfrentaments entre partits. Com a curiositat, aquesta fórmula la podem obtenir de representar tots els $ N $ equips en una matriu d'adjacència on tindriem  $N^2$ cel·les, éssent cada cel·la un enfrentament entre cada equip. Si mirem el nombre de cel·les de la matriu, li treiem aleshores els $N$ elements de la diagonal principal -enfrentament d'un equip amb ell mateix, que no és possible- i després eliminem la meitat dels elements restants de la matriu, és a dir el triangle inferior o superior -ja que no hi ha partits de tornada, i ens quedem amb el triangle restant és quan tenim el nombre d'enfrentaments igual a $N*(N-1)/2$:
 
 
-$$Nombre Enfrentaments =  (N^2 - N)/2 = (N \cdot (N-1)/2$$
+$$\text{Nombre Enfrentaments} =  (N^2 - N)/2 = (N (N-1)/2$$
 
 
 ## [Problema F (Fase final)](https://aceptaelreto.com/problem/statement.php?id=714)
