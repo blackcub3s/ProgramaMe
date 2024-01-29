@@ -73,11 +73,36 @@ https://github.com/blackcub3s/ProgramaMe/blob/6475385f22f524f7732a35f38497e55ad9
 
 Per fer aquest problema començem processant els casos de prova encapçalats per les variables enteres `N Q` en la mateixa línia (que són el nombre d'equips de la fase de grups i la quantitat d'equips classificats, respectivament). En l'inici del plantejament ens podem preguntar com volem parar la lectura del canal estàndard d'entrada quan ja no hi hagi entrades d'enters `N Q` (haguem consumit tots els casos de prova). No aconsegueixo que el `do...while` s'aturi quan ja no hi ha cap altre enter pel canal estàndard d'entrada, ja que `sc.hasNextInt()` no retorna `false` fins que no rep _algo_ que no sigui un enter, cosa que no passa en l'enunciat del problema perquè deixen el nombre de casos de prova obert i no informen de final de seqüència. <strong>Com aconseguir, amb java, que el bucle de lectura de casos de prova acabi? És exactament la mateixa dificultat que tinc a l'exercici D</strong>.
 
-De cara a processar cada cas de prova, després d'engollir `N i Q` ens diuen que tenim $N(N-1)/2$ enfrentaments entre partits. Com a curiositat, aquesta fórmula la podem obtenir de representar tots els $N$ equips en una matriu d'adjacència on tindriem  $N^2$ cel·les, éssent cada cel·la un enfrentament entre cada equip. Si mirem el nombre de cel·les de la matriu, li treiem aleshores els $N$ elements de la diagonal principal -enfrentament d'un equip amb ell mateix, que no és possible- i després eliminem la meitat dels elements restants de la matriu, és a dir el triangle inferior o superior -ja que no hi ha partits de tornada, i ens quedem amb el triangle restant és quan tenim el nombre d'enfrentaments igual a $N(N-1)/2$:
+De cara a processar cada cas de prova, després d'engollir `N i Q` ens diuen que tenim $N(N-1)/2$ enfrentaments entre partits. Com a curiositat (podeu passar al següent paràgraf, no és necessari saber-ho per fer el problema), aquesta fórmula la podem obtenir de representar tots els $N$ equips en una matriu d'adjacència on tindriem  $N^2$ cel·les, éssent cada cel·la un enfrentament entre cada equip. Si mirem el nombre de cel·les de la matriu, li treiem aleshores els $N$ elements de la diagonal principal -enfrentament d'un equip amb ell mateix, que no és possible- i després eliminem la meitat dels elements restants de la matriu, és a dir el triangle inferior o superior -ja que no hi ha partits de tornada, i ens quedem amb el triangle restant és quan tenim el nombre d'enfrentaments igual a $N(N-1)/2$:
 
 
 $$\text{Nombre Enfrentaments} =  (N^2 - N)/2 = N(N-1)/2$$
 
+La part del problema més interessant era ordenar la matriu de resultats primer per la columna dels punts (segona columna) i, sense que es perdés aquesta ordenació, ordenar després er la columna de la diferència de gols (cinquena columna) i, finalment, per la columna dels gols a favor (tercera columna). Per fer això es pot aconseguir amb el que anomenen `Comparator`. No domino la sintaxis i no tinc encara la capacitat tècnica suficient per fer-los servir així que aquesta secció l'he demanat a xatGPT (al programa està indicada la secció que ha fet la IA). Justament és aquesta secció la que genera, pressumptament, <strong>un error de compilació (CE)</strong> així que la resolució del problema cal interpetar-la amb cautela:
+
+```
+
+ProblemaE.java:96: error: ')' expected
+                    .comparingInt((int[] row) -> row[1]) // Sort by the SECOND column
+                                        ^
+ProblemaE.java:96: error: illegal start of expression
+                    .comparingInt((int[] row) -> row[1]) // Sort by the SECOND column
+                                               ^
+ProblemaE.java:96: error: ';' expected
+                    .comparingInt((int[] row) -> row[1]) // Sort by the SECOND column
+                                                       ^
+ProblemaE.java:97: error: illegal start of expression
+                    .thenComparingInt(row -> row[4])     // Then sort by the FIFTH column
+                                           ^
+ProblemaE.java:98: error: illegal start of expression
+                    .thenComparingInt(row -> row[2])     // Finally, sort by the THIRD column
+                                           ^
+5 errors
+```
+
+El programa és el següent:
+
+POSA CODI
 
 ## [Problema F (Fase final)](https://aceptaelreto.com/problem/statement.php?id=714)
 
