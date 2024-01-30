@@ -106,7 +106,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/e9036f9061d1e67f4f7b5201eea77524a9
 
 ## [Problema F (Fase final)](https://aceptaelreto.com/problem/statement.php?id=714)
 
-Cada cas de prova del problema F l'he resolt creant un vector per als noms dels equips `noms` i un altre vector per als gols que marquen els equips `gols`, cada un d'ells amb `N` posicions (valor que indica el nombre d'equips que tenim inicialment). Res més començar el processament del cas de prova s'emplenen ambdós vectors amb els `N` equips (amb `N` compresa entre 2 i 64, sempre sent potencia de dos). 
+Cada cas de prova del problema F l'he resolt dins la `funció tractaCasDeProva()` creant un vector per als noms dels equips `noms` i un altre vector per als gols que marquen els equips `gols`, cada un d'ells amb `N` posicions (valor que indica el nombre d'equips que tenim inicialment). Res més començar el processament del cas de prova s'emplenen ambdós vectors amb els `N` equips (amb `N` compresa entre 2 i 64, sempre sent potencia de dos). 
 
 Després tenim un while amb condició de finalització `(N != 1)`. A la primera iteració del mateix simplement recorrem tot el vector de `gols` (amb `N` gols) i mirem els guanyadors dels enfrentaments. Els `N/2` valors dels equips guanyadors els reubiquem a la primera meitat de `noms` i amb la segona meitat del vector ja no hi treballarem.
 
