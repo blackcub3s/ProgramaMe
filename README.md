@@ -119,6 +119,20 @@ A sota la solució:
 https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38b6afa0/Escalfament%20PreNadalenc%202024/ProblemaF.java#L9-L61
 
 
+
+
+
+
+
+# Problemes de preparació
+
+## [Quadrats diabòlics i esotèrics](https://aceptaelreto.com/pub/problems/v001/01/st/problem.pdf)
+
+És un problema per practicar arrays bidimensionals (podeu veure l'enunciat clicant al títol o aquí: [en pdf](asd)), lectura de seqüències de nombres enters amb marca final coneguda (0) i, al menys així l'he fet jo, es pot utilitzar l'estructura de dades hashSet per resoldre trobar una de les condicions per decidir si un quadrat (matriu) 
+és, a més a més de diabòlic, esotèric.
+
+La solució:
+
 <!-- NOTES AL PEU DE PÀGINA -->
 [^1]: Per exemple, en java ens cal instanciar un objecte de la classe Scanner `Scanner sc = new Scanner(System.in)` i ens cal cridar mètodes dinàmics de la mateixa `int varEntrada = sc.nextInt()` per introduir dades pel canal estàndard d'entrada; en canvi, en C++ només ens cal fer `#include <iostream>` i `cin >> varEntrada` després de declarar varEntrada com a entera. També es simplifica el canal estàndard de sortida: en comptes de `System.out.println(valor)` fem `cout << valor << endl`. Finalment, en C++ tampoc ens cal escriure el codi d'una classe ni la fila llarguíssima del main que requereix java `public static void main(String[] args)`, que es redueix a `int main() { //codi aqui    return 0;}`.
 <!--FI NOTA AL PEU DE PÀGINA -->
