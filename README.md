@@ -138,6 +138,15 @@ La solució en C++:
 https://github.com/blackcub3s/ProgramaMe/blob/25d2fae7c750acce8de3930ebb9dc60ad55c94b9/villaviciosaTerrassa2023/picosPatas.cc#L1-L14
 
 
+
+## [Problema "dia mundial piano" (anys de trasp+ass)](https://aceptaelreto.com/problem/statement.php?id=676&cat=156) (molt fàcil)
+
+El problema d'anys de traspàs és típic i no és llarg de fer, però no és trivial de codificar si no es presta atenció als condicionals:
+
+La solució:
+
+https://github.com/blackcub3s/ProgramaMe/blob/9224ba2612898647e7f3ab2410e7046ee4e1a7e7/villaviciosaTerrassa2023/bisiesto.java#L1-L38
+
 # Problemes de preparació
 
 ## [Quadrats diabòlics i esotèrics](https://aceptaelreto.com/pub/problems/v001/01/st/problem.pdf)
