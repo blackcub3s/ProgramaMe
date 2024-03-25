@@ -125,7 +125,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38
 
 Aqui hi ha resolució de problemes de regional de villaviciosa d'odón i terrassa 2023, realitzats en la universitat europea i en l'institut nicolau copèrnic.
 
-## [Problema "Metidos en un cajón"](https://aceptaelreto.com/problem/statement.php?id=682&cat=156) (fàcil)
+## [Problema "Metidos en un cajón"](https://aceptaelreto.com/problem/statement.php?id=682&cat=156) (molt fàcil)
 
 Dificultat extremadament fàcil. Si es programa de zero es pot tenir el programa llest i entregat en menys de quatre minuts. Nom
 
@@ -139,9 +139,18 @@ https://github.com/blackcub3s/ProgramaMe/blob/25d2fae7c750acce8de3930ebb9dc60ad5
 
 
 
-## [Problema "dia mundial piano" (anys de traspàs)](https://aceptaelreto.com/problem/statement.php?id=676&cat=156) (molt fàcil)
+## [Problema "dia mundial piano" (anys de traspàs)](https://aceptaelreto.com/problem/statement.php?id=676&cat=156) (fàcil)
 
-El problema d'anys de traspàs és típic i no és llarg de fer, però no és trivial de codificar si no es presta atenció als condicionals:
+El problema d'anys de traspàs és típic i no és llarg de fer, però no és trivial de codificar si no es presta atenció als condicionals. L'enunciat no deixava les normes de l'any de traspàs molt molt clares, pel meu gust; així doncs es pot consultar [aquest recurs electrònic](https://learn.microsoft.com/es-es/office/troubleshoot/excel/determine-a-leap-year) i després programar-ho a partir de les següents normes:
+
+
+>Para determinar si un año es bisiesto, siga estos pasos:
+>
+>- Si el año es uniformemente divisible por 4, vaya al paso 2. De lo contrario, vaya al paso 5.
+>- Si el año es uniformemente divisible por 100, vaya al paso 3. De lo contrario, vaya al paso 4.
+>- Si el año es uniformemente divisible por 400, vaya al paso 4. De lo contrario, vaya al paso 5.
+>- El año es un año bisiesto (tiene 366 días).
+>- El año no es un año bisiesto (tiene 365 días).
 
 La solució:
 
