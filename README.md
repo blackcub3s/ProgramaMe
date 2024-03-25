@@ -127,12 +127,15 @@ Aqui hi ha resolució de problemes de regional de villaviciosa d'odón i terrass
 
 ## Problema ["Metidos en un cajón"](https://aceptaelreto.com/problem/statement.php?id=682&cat=156)
 
-Dificultat extremadament fàcil. Si es programa de zero es pot tenir el programa llest i entregat en menys de quatre minuts. La solució en java:
+Dificultat extremadament fàcil. Si es programa de zero es pot tenir el programa llest i entregat en menys de quatre minuts.
 
+La solució en java:
+
+https://github.com/blackcub3s/ProgramaMe/blob/25d2fae7c750acce8de3930ebb9dc60ad55c94b9/villaviciosaTerrassa2023/picosPatas.java#L1-L18
 
 La solució en C++:
 
-
+https://github.com/blackcub3s/ProgramaMe/blob/25d2fae7c750acce8de3930ebb9dc60ad55c94b9/villaviciosaTerrassa2023/picosPatas.cc#L1-L14
 
 
 # Problemes de preparació
