@@ -139,7 +139,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/25d2fae7c750acce8de3930ebb9dc60ad5
 
 
 
-## [Problema "dia mundial piano" (anys de trasp+ass)](https://aceptaelreto.com/problem/statement.php?id=676&cat=156) (molt fàcil)
+## [Problema "dia mundial piano" (anys de traspàs)](https://aceptaelreto.com/problem/statement.php?id=676&cat=156) (molt fàcil)
 
 El problema d'anys de traspàs és típic i no és llarg de fer, però no és trivial de codificar si no es presta atenció als condicionals:
 
