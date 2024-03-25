@@ -125,9 +125,9 @@ https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38
 
 Aqui hi ha resolució de problemes de regional de villaviciosa d'odón i terrassa 2023, realitzats en la universitat europea i en l'institut nicolau copèrnic.
 
-## Problema ["Metidos en un cajón"](https://aceptaelreto.com/problem/statement.php?id=682&cat=156)
+## [Problema "Metidos en un cajón"](https://aceptaelreto.com/problem/statement.php?id=682&cat=156) (fàcil)
 
-Dificultat extremadament fàcil. Si es programa de zero es pot tenir el programa llest i entregat en menys de quatre minuts.
+Dificultat extremadament fàcil. Si es programa de zero es pot tenir el programa llest i entregat en menys de quatre minuts. Nom
 
 La solució en java:
 
