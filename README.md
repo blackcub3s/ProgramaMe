@@ -8,7 +8,7 @@ Els problemes d'aquesta secció es poden trobar, a més a més de tenir-los en f
 
 ## [Problema A (Elegint la seu del mundial)](https://aceptaelreto.com/problem/statement.php?id=709)
 
-Penso que la millor forma de resoldre aquest problema és mitjançant una estructura de dades que permeti emmagatzemar parelles de clau : valor de forma eficient, acumulant així per a cada cas de prova el nombre d'ocurrències -vots- que cada país té (és una parella clau -país- i valor -nombre d'ocurrències-). En Python l'estructura de dades que permet implementar aquesta solució són els diccionaris (`dict`), i en C++ i Java tenim els map (d'estructura molt més complicada que els diccionaris de Python).
+Penso que la millor forma de resoldre aquest problema és mitjançant una estructura de dades que permeti emmagatzemar parelles de clau : valor de forma eficient, acumulant així per a cada cas de prova el nombre d'ocurrències -vots- que cada país té (és una parella clau -país- i valor -nombre d'ocurrències-). En Python l'estructura de dades que permet implementar aquesta solució són els diccionaris (`dict`), i en C++ i Java tenim els HashMap (d'estructura molt més complicada que els diccionaris de Python).
 
 En Java, podem declarar un map d'aquesta manera:
 
@@ -25,7 +25,7 @@ for (Map.Entry<String, Integer> parell_clauValor : elMeuMap.entrySet()) {
 } 
 ```
 
-Cal també esmentar com crear un nou parell clau:valor dins d'un map, per una banda; i com accedir a un valor a partir d'una clau dins el diccionari, per l'altra. Per aconseguir la creació d'un nou parell farem servir la funció put(): així doncs `elMeuMap.put(clau, valor)` afegirà un parell clau:valor al diccionari. D'altra banda, per accedir al valor que tingui el diccionari per clau `clau` farem `elMeuMap.get(clau)`.
+Cal també esmentar com crear un nou parell clau:valor dins d'un map, per una banda; i com accedir a un valor a partir d'una clau dins el map, per l'altra. Per aconseguir la creació d'un nou parell farem servir la funció put(): així doncs `elMeuMap.put(clau, valor)` afegirà un parell clau:valor al diccionari. D'altra banda, per accedir al valor que tingui el map per clau `clau` farem `elMeuMap.get(clau)`.
 
 Finalment cal esmentar que en aquest problema és necessari l'ús de la funció `sc.next()` que permet consumir del canal estàndard d'entrada la següent paraula d'una linia d'strings (nextline en canvi consumiria tota una línia i no ens permetria resoldre bé el problema). 
 El problema l'he resolt així:
@@ -120,6 +120,17 @@ https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38
 
 
 
+
+# 2023 (Regional Villaviciosa de Odón i Terrassa)
+
+Aqui hi ha resolució de problemes de regional de villaviciosa d'odón i terrassa 2023, realitzats en la universitat europea i en l'institut nicolau copèrnic.
+
+## Problema ["Metidos en un cajón"](https://aceptaelreto.com/problem/statement.php?id=682&cat=156)
+
+Dificultat extremadament fàcil. Si es programa de zero es pot tenir el programa llest i entregat en menys de quatre minuts. La solució en java:
+
+
+La solució en C++:
 
 
 
