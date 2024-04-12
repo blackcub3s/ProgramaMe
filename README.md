@@ -161,9 +161,27 @@ https://github.com/blackcub3s/ProgramaMe/blob/9224ba2612898647e7f3ab2410e7046ee4
 
 Per resoldre aquest problema he fet servir dos conjunts. No ho diu al problema però se sobreentèn que cal tenir en compte que si un jugador tracta d'endivinar una lletra, i aquesta es repeteix múltiples vegades en la paraula oculta, automàticament haurà adivinat totes les ocurrències de la lletra en la paraula oculta.
 
-Això és important de considerar-ho perquè si no hagués estat així, resoldre el problema amb conjunts seria impossible (ja que un conjunt o -Hashset en java- té una i només una ocurrència, no té elements repetits).
+Per resoldre'l he fet servir dos instàncies d'una estructura de dades amb les que Java implementa la idea matemàtica de conjunt. Això és important de considerar-ho perquè si no hagués estat així, resoldre el problema amb conjunts seria impossible ja que un conjunt té una i només una ocurrència, no té elements repetits).
 
-El temps dedicat per fer-lo ha estat d'una hora. Després ha calgut debugejar una mica el main per la lectura de la marca final, que calia premer intro dues vegades per acabar l'execució i inicialment donava error RTE. Ara ja està arreglat i l'accepta el servidor d'acepta el reto:
+Un conjunt e n java s'implementa mitjançant el tipus de dades Set i Hashset en java (cal fer dos imports amb el NetBeans):
+
+S'anomena HashSet i podem implementar-lo d'aquesta forma:
+
+```
+EN GENERAL:
+Set<TipusDada> conjuntet = new HashSet<>();
+
+CASOS CONCRETS:
+Set<Integer> conjuntEnterets = new HashSet<>();
+Set<Character> conjuntCharete = new HashSet<>();
+HashSet<String> conjuntStringete = new HashSet<>();
+
+```
+Noteu que fem servir Integer en comptes de int, o Character en comptes de char. Això és perquè demana introduir un topus de dades "reference type". El tipus int o char son tipus primitius i no referencien a res. En canvi Integer o Character si son "Reference types" i són una classe que "embolcalla" els tipus primitius. Important perquè si fas ```Set<int> conjuntEnters = new HashSet<>();``` o ```Set<char> conjuntCaracters = new HashSet<>();``` és incorrecte: et donarà error.
+
+
+El temps dedicat per fer resoldre el problema del verdugo ha estat d'una hora. Després ha calgut debugejar una mica el main per la lectura de la marca final (uns 10 minuts més), perquè calia prémer intro dues vegades per acabar l'execució del programa quan es trobava amb un punt i, inicialment, en pujar-ho a Acepta el reto donava error RTE. Ara ja està arreglat i el servidor d'acepta el reto dóna AC com a veredicte:
+
 
 https://github.com/blackcub3s/ProgramaMe/blob/caa4297df9f934b73be60bacb211fdc099535a75/villaviciosaTerrassa2023/Verdugo.java#L4-L73
 
