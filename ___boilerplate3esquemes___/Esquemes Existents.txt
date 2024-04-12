@@ -1,7 +1,0 @@
-PRIMER ESQUEMA (CASOS CONEGUTS)
-	 rebo enter amb els casos de prova al principi de l'execucio
-SEGON ESQUEMA (MARCA ESPECIAL)
-	programa va llegint casos dep rova fins que troba cas de prova especial
-TERCER ESQUEMA (NO INFORMA FINAL)
-	programa va llegint casos de prova fins que no queden més dades 
-	
