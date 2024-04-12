@@ -177,10 +177,9 @@ Set<Character> conjuntCharete = new HashSet<>();
 HashSet<String> conjuntStringete = new HashSet<>();
 
 ```
-Noteu que fem servir Integer en comptes de int, o Character en comptes de char. Això és perquè demana introduir un topus de dades "reference type". El tipus int o char son tipus primitius i no referencien a res. En canvi Integer o Character si son "Reference types" i són una classe que "embolcalla" els tipus primitius. Important perquè si fas ```Set<int> conjuntEnters = new HashSet<>();``` o ```Set<char> conjuntCaracters = new HashSet<>();``` és incorrecte: et donarà error.
+Noteu que fem servir "Integer" en comptes de "int", o "Character" en comptes de "char". Això és perquè demana introduir un tipus de dades "reference type". Els tipus "int" o "char" son tipus primitius i no referencien a res. En canvi, "Integer" o "Character" si que són "Reference types": defineixen classes que "embolcallen" sengles tipus primitius. És important saber-ho perquè si fas ```Set<int> conjuntEnters = new HashSet<>();``` o ```Set<char> conjuntCaracters = new HashSet<>();``` és incorrecte: et donarà error.
 
-
-El temps dedicat per fer resoldre el problema del verdugo ha estat d'una hora. Després ha calgut debugejar una mica el main per la lectura de la marca final (uns 10 minuts més), perquè calia prémer intro dues vegades per acabar l'execució del programa quan es trobava amb un punt i, inicialment, en pujar-ho a Acepta el reto donava error RTE. Ara ja està arreglat i el servidor d'acepta el reto dóna AC com a veredicte:
+El temps dedicat per fer resoldre el problema del verdugo ha estat d'una hora. Després ha calgut debugejar una mica el main per la lectura de la marca final (uns 10 minuts més), perquè calia prémer intro dues vegades per acabar l'execució del programa (donava RTE abans dels canvis i AC després). A continuació la versió que passa el test:
 
 
 https://github.com/blackcub3s/ProgramaMe/blob/caa4297df9f934b73be60bacb211fdc099535a75/villaviciosaTerrassa2023/Verdugo.java#L4-L73
