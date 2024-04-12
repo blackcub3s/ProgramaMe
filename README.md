@@ -156,6 +156,21 @@ La solució:
 
 https://github.com/blackcub3s/ProgramaMe/blob/9224ba2612898647e7f3ab2410e7046ee4e1a7e7/villaviciosaTerrassa2023/bisiesto.java#L1-L38
 
+
+## [Problema "Verdugo" (l'ahorcado)](https://aceptaelreto.com/problem/statement.php?id=678&cat=156) (intermig)
+
+Per resoldre aquest problema he fet servir dos conjunts. No ho diu al problema però se sobreentèn que cal tenir en compte que si un jugador tracta d'endivinar una lletra, i aquesta es repeteix múltiples vegades en la paraula oculta, automàticament haurà adivinat totes les ocurrències de la lletra en la paraula oculta.
+
+Això és important de considerar-ho perquè si no hagués estat així, resoldre el problema amb conjunts seria impossible (ja que un conjunt o -Hashset en java- té una i només una ocurrència, no té elements repetits).
+
+El temps dedicat per fer-lo ha estat d'una hora. Després ha calgut debugejar una mica el main per la lectura de la marca final, que calia premer intro dues vegades per acabar l'execució i inicialment donava error RTE. Ara ja està arreglat i l'accepta el servidor d'acepta el reto:
+
+https://github.com/blackcub3s/ProgramaMe/blob/caa4297df9f934b73be60bacb211fdc099535a75/villaviciosaTerrassa2023/Verdugo.java#L4-L73
+
+
+
+
+
 # Problemes de preparació
 
 ## [Quadrats diabòlics i esotèrics](https://aceptaelreto.com/pub/problems/v001/01/st/problem.pdf)
