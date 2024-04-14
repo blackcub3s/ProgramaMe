@@ -186,7 +186,11 @@ https://github.com/blackcub3s/ProgramaMe/blob/caa4297df9f934b73be60bacb211fdc099
 
 ## [Problema "Termoclastismo"](https://aceptaelreto.com/problem/statement.php?id=683&cat=156) (intermig)
 
-Per a qualsevol cas de prova donat, veiem que el problema de termoclastismo és senzill de fer per trobar les temperatures màximes i mínimes; però no ho és tant per trobar la diferència mínima entre les posicions que ocupen en la seqüència d'entrada d'una temperatura màxima i una temperatura mínima (és a dir, el que ens defineixen com la **distància mínima** entre ambdues).
+Per a qualsevol cas de prova donat, veiem que el problema de termoclastismo és senzill de fer per trobar les temperatures màximes i mínimes; però no ho és tant per trobar la diferència mínima entre les posicions que ocupen en la seqüència d'entrada d'una temperatura màxima i una temperatura mínima (és a dir, el que ens defineixen com la **distància mínima** entre ambdues). La resolució feta dóna WA encara que he provat tots els casos de prova possibles que se m'han acudit i funciona bé. Prego al lector pugui trobar l'estratègia per fer que passi el test de la pàgina d'aprendre a programar (vegeu el link del títol del problema i després cliqueu en pestanya enviar):
+
+https://github.com/blackcub3s/ProgramaMe/blob/3a266276dff1c4ea9a69e841b62c022e47814ebc/villaviciosaTerrassa2023/Termoclastismo.java#L3-L101
+
+A continuació explicaré l'estratègia seguida i l'algoritme emprat.
 
 Per trobar `tMax`i `tMin` només cal recórrer la seqüència de temperatures i anar actualitzant sengles variables que haviem creat abans de llegir les dades del cas: així, a cada iteració del recorregut dels valors de la seqüència, si trobem un valor `t` tal que `t < tMin` actualitzarem `tMin`; mentre que si compleix `t > tMax` aleshores ctualitzerm `tMax`. Res complicat. Ara bé, el problema de trobar la distància mínima en la seqüència entre la temperatura màxima i mínima no és pas trivial quan tenim temperatures màximes i mínimes repetides. Això, per tant, ens obliga a guardar en un array `vTemps` totes les temperatures mentre en llegiem la seqüència per trobar `iMax`i `iMin`.
 
@@ -211,6 +215,9 @@ Per procedir a cada iteració del bucle incrementarem en 1 l'índex de `arr_Imax
 
 Per exemple, a la primera iteració comparem `arr_Imax[0]` que és 2 amb `arr_Imin[0]` que és 0 (abs(2-0) --> 2 i per tant no hem acabat). Per tant, a la segona iteració, aumentarem en una unitat l'índex de `arr_Imin` (que té el valor més petit dels dos que hem comparat). Així doncs a la tercera iteració compararem  `arr_Imax[0]` que és 2 amb `arr_Imin[1]` que és 9. A la quarta iteració aumentarem l'índex que es mou per la llista `arr_Imax` (que ara te el valor més petit en la comparació anterior) i per tant compararem `arr_Imax[1]` que és 3 amb  `arr_Imin[1]` que és 9... I aixi fins arribar a trobar la diferència mínima que en aquest cas de prova es trobarà just abans del final de les llistes, quan fem la comparació `arr_Imax[3]` que és 11 i `arr_Imin[2]` que és 12.
 
+Aquest algoritme per cercar la distància mínima queda exemplificat en aquest fragment del codi:
+
+https://github.com/blackcub3s/ProgramaMe/blob/3a266276dff1c4ea9a69e841b62c022e47814ebc/villaviciosaTerrassa2023/Termoclastismo.java#L76-L86
 
 
 # Problemes de preparació
