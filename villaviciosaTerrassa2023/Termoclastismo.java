@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Termoclastismo {
     
-    //PRE: n > 0
+    //PRE: n > 0 
     //POST: llegeix i processa n valors de temperatura "t" 
     //      compresos en interval -50 <= t <= 300 
     public static void casDeProva(Scanner sc, int n) {
