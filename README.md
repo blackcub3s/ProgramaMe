@@ -215,7 +215,12 @@ Per procedir a cada iteració del bucle incrementarem en 1 l'índex de `arr_Imax
 
 Per exemple, a la primera iteració comparem `arr_Imax[0]` que és 2 amb `arr_Imin[0]` que és 0 (abs(2-0) --> 2 i per tant no hem acabat). Per tant, a la segona iteració, aumentarem en una unitat l'índex de `arr_Imin` (que té el valor més petit dels dos que hem comparat). Així doncs a la tercera iteració compararem  `arr_Imax[0]` que és 2 amb `arr_Imin[1]` que és 9. A la quarta iteració aumentarem l'índex que es mou per la llista `arr_Imax` (que ara te el valor més petit en la comparació anterior) i per tant compararem `arr_Imax[1]` que és 3 amb  `arr_Imin[1]` que és 9... I aixi fins arribar a trobar la diferència mínima que en aquest cas de prova es trobarà just abans del final de les llistes, quan fem la comparació `arr_Imax[3]` que és 11 i `arr_Imin[2]` que és 12.
 
-Aquest algoritme per cercar la distància mínima queda exemplificat en aquest fragment del codi:
+
+Aquest algoritme per cercar la distància mínima queda exemplificat en aquest gif per al cas particular que esmentavem:
+
+![El gif no ha carregat](_img_/gifTermoclastismo.gif)
+
+I el fragment de codi:
 
 https://github.com/blackcub3s/ProgramaMe/blob/3a266276dff1c4ea9a69e841b62c022e47814ebc/villaviciosaTerrassa2023/Termoclastismo.java#L76-L86
 
