@@ -9,7 +9,7 @@ public class Verdugo {
     
 
     public static void casDeProva(Scanner sc, String pOculta, String proposta) {
-        Set<Character> setOculta = new HashSet<>(); //lletres de la paraula oculta
+        Set<Character> setOculta = new HashSet<>(); //lletres de la paraula oculta_
         Set<Character> setProvades = new HashSet<>(); //lletres ja trobades per l'usuari
         
 
