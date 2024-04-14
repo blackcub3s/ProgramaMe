@@ -203,14 +203,15 @@ arr_Imin = [0,9,12]
 
 ```
 
-Fixeu-vos que els índexos de les posicions que ocupen les temperatures màximes i mínimes dins d'aquestes llistes estan ordenats dins de cada llista.
-Es fàcil veure a simple vista que la distància mínima la trobarem si comparem la temperatura 3 (temperatura màxima) de la posició 11 i la temperatura 1 (temperatura mínima) de la posició 12. Però per a que ho faci el programa haurem de mirar `arr_Imax` i `arr_Imin`:  Així doncs per trobar la distància mínima d'índexos de temperatures maximes i mínimes no és necessari que mirem totes les combinacions possibles de les dues arr (molt ineficient) sino aplicar le següent algoritme: 
+Fixeu-vos que els índexos de les posicions que ocupen les temperatures màximes i mínimes dins d'aquestes llistes estan ordenats dins de cada llista. És fàcil veure a simple vista que la distància mínima la trobarem si comparem la temperatura 3 (temperatura màxima dins vTemps) de la posició 11 i la temperatura 1 (temperatura mínima dins vTemps) de la posició 12. Però per a què ho faci el programa haurem de mirar `arr_Imax` i `arr_Imin`:  Així doncs per trobar la distància mínima d'índexos de temperatures màximes i mínimes no és necessari que mirem totes les combinacions possibles de les dues arr (molt ineficient) sino comparar element a element i d'esquerra a dreta les dues llistes.
 
-primer comparem arr_Imax[0] amb arr_Imin[0] (fent abs(arr_Imin[0] - arr_Imax[0])). Si la diferència trobada en valor absolut és 1 aleshores ja hem trobat la distància mínima que buscavem, i no cal seguir mirant les arrays. En cas contrari caldrà seguir mirant les dues arrays `arr_Imax` i `arr_Imin` fins a arribar a una diferència en valor absolut de 1 o bé fins arribar fins al final. 
+Primer comparem arr_Imax[0] amb arr_Imin[0] (fent abs(arr_Imin[0] - arr_Imax[0])). Si la diferència trobada en valor absolut és 1 aleshores ja hem trobat la distància mínima que buscavem, i no cal seguir mirant les arrays. En cas contrari, caldrà seguir comparant les dues arrays `arr_Imax` i `arr_Imin` fins a arribar a una diferència en valor absolut de 1 o bé fins arribar fins al final de les llistes.
 
-Així procedirem de la següent manera: A cada iteració del bucle per anar recorrent les dues arrays `arr` incrementarem en 1 l'índex de `arr_Imax` o `arr_Imin` segons quina dels dos últims valors d'índex de temperatura que hem comparat entre cada array sigui el més petit. Així doncs, a cada ocasió estarem reduint potencialment la diferència.
+Per procedir a cada iteració del bucle incrementarem en 1 l'índex de `arr_Imax` o `arr_Imin` segons quin dels dos últims valors d'índex de temperatura que hem comparat entre cada array sigui el més petit. Així doncs, a cada ocasió estarem reduint potencialment la diferència.
 
 Per exemple, a la primera iteració comparem `arr_Imax[0]` que és 2 amb `arr_Imin[0]` que és 0 (abs(2-0) --> 2 i per tant no hem acabat). Per tant, a la segona iteració, aumentarem en una unitat l'índex de `arr_Imin` (que té el valor més petit dels dos que hem comparat). Així doncs a la tercera iteració compararem  `arr_Imax[0]` que és 2 amb `arr_Imin[1]` que és 9. A la quarta iteració aumentarem l'índex que es mou per la llista `arr_Imax` (que ara te el valor més petit en la comparació anterior) i per tant compararem `arr_Imax[1]` que és 3 amb  `arr_Imin[1]` que és 9... I aixi fins arribar a trobar la diferència mínima que en aquest cas de prova es trobarà just abans del final de les llistes, quan fem la comparació `arr_Imax[3]` que és 11 i `arr_Imin[2]` que és 12.
+
+
 
 # Problemes de preparació
 
