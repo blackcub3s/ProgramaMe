@@ -2,6 +2,7 @@ package villaviciosaTerrassa2023;
 
 import java.util.Scanner;
 
+
 public class Termoclastismo {
     
     //PRE: n > 0 
