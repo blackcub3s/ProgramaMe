@@ -186,7 +186,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/caa4297df9f934b73be60bacb211fdc099
 
 ## [Problema "Termoclastismo"](https://aceptaelreto.com/problem/statement.php?id=683&cat=156) (intermig)
 
-Per a qualsevol cas de prova donat, veiem que el problema de termoclastismo és senzill de fer per trobar les temperatures màximes i mínimes; però no ho és tant per trobar la diferència mínima entre les posicions que ocupen en la seqüència d'entrada d'una temperatura màxima i una temperatura mínima (és a dir, el que ens defineixen com la **distància mínima** entre ambdues).
+Per a qualsevol cas de prova donat, veiem que el problema de termoclastismo és senzill de fer per trobar les temperatures màximes i mínimes; però no ho és tant per trobar la diferència mínima entre les posicions que ocupen en la seqüència d'entrada d'una temperatura màxima i una temperatura mínima (és a dir, el que ens defineixen com la **distància mínima** entre ambdues). AASD
 
 Per trobar `tMax`i `tMin` només cal recórrer la seqüència de temperatures i anar actualitzant sengles variables que haviem creat abans de llegir les dades del cas: així, a cada iteració del recorregut dels valors de la seqüència, si trobem un valor `t` tal que `t < tMin` actualitzarem `tMin`; mentre que si compleix `t > tMax` aleshores ctualitzerm `tMax`. Res complicat. Ara bé, el problema de trobar la distància mínima en la seqüència entre la temperatura màxima i mínima no és pas trivial quan tenim temperatures màximes i mínimes repetides. Això, per tant, ens obliga a guardar en un array `vTemps` totes les temperatures mentre en llegiem la seqüència per trobar `iMax`i `iMin`.
 
