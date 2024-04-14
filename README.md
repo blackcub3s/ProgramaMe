@@ -230,6 +230,8 @@ https://github.com/blackcub3s/ProgramaMe/blob/3a266276dff1c4ea9a69e841b62c022e47
 La solució:
 
 https://github.com/blackcub3s/ProgramaMe/blob/82c7a88f54e3264b745d7cca3a06bf5821715815/problemes/cuadratDiabolic.java#L5-L162
+
 <!-- NOTES AL PEU DE PÀGINA -->
+
 [^1]: Per exemple, en java ens cal instanciar un objecte de la classe Scanner `Scanner sc = new Scanner(System.in)` i ens cal cridar mètodes dinàmics de la mateixa `int varEntrada = sc.nextInt()` per introduir dades pel canal estàndard d'entrada; en canvi, en C++ només ens cal fer `#include <iostream>` i `cin >> varEntrada` després de declarar varEntrada com a entera. També es simplifica el canal estàndard de sortida: en comptes de `System.out.println(valor)` fem `cout << valor << endl`. Finalment, en C++ tampoc ens cal escriure el codi d'una classe ni la fila llarguíssima del main que requereix java `public static void main(String[] args)`, que es redueix a `int main() { //codi aqui    return 0;}`.
 <!--FI NOTA AL PEU DE PÀGINA -->
