@@ -190,7 +190,7 @@ Per a qualsevol cas de prova donat, veiem que el problema de termoclastismo és 
 
 https://github.com/blackcub3s/ProgramaMe/blob/3a266276dff1c4ea9a69e841b62c022e47814ebc/villaviciosaTerrassa2023/Termoclastismo.java#L3-L101
 
-A continuació explicaré l'estratègia seguida i l'algoritme emprat.
+A continuació explicaré l'estratègia seguida i l'algoritme emprat:
 
 Per trobar `tMax`i `tMin` només cal recórrer la seqüència de temperatures i anar actualitzant sengles variables que haviem creat abans de llegir les dades del cas: així, a cada iteració del recorregut dels valors de la seqüència, si trobem un valor `t` tal que `t < tMin` actualitzarem `tMin`; mentre que si compleix `t > tMax` aleshores ctualitzerm `tMax`. Res complicat. Ara bé, el problema de trobar la distància mínima en la seqüència entre la temperatura màxima i mínima no és pas trivial quan tenim temperatures màximes i mínimes repetides. Això, per tant, ens obliga a guardar en un array `vTemps` totes les temperatures mentre en llegiem la seqüència per trobar `iMax`i `iMin`.
 
