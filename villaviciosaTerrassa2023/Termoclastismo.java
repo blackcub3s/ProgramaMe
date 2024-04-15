@@ -2,10 +2,9 @@ package villaviciosaTerrassa2023;
 
 import java.util.Scanner;
 
-
 public class Termoclastismo {
     
-    //PRE: n > 0 
+    //PRE: n > 0
     //POST: llegeix i processa n valors de temperatura "t" 
     //      compresos en interval -50 <= t <= 300 
     public static void casDeProva(Scanner sc, int n) {
@@ -26,11 +25,11 @@ public class Termoclastismo {
             //PER EVITAR FER SERVIR ARRAY LIST QUE OCUPA MES MEMORIA
             if (t > tMax) {
                 tMax = t;  
-                nMax = 1; 
+                nMax = 0; 
             }
             if (t < tMin) {
                 tMin = t;
-                nMin = 1; 
+                nMin = 0; 
             }
             if (t == tMin)
                 nMin += 1;
@@ -73,9 +72,11 @@ public class Termoclastismo {
             // el nombre del qual sigui més petit en la comparació:
             //
             // vegeu a continuació:
+            
+            
             int i = 0;
             int j = 0;
-            int distancia = 200001; //o bé 200001
+            int distancia = 200001; //o b 200001
             while (i < nMax && j < nMin && distancia != 1) {
                 distancia = Math.abs(arr_Imax[i] - arr_Imin[j]);
                 if (arr_Imax[i] > arr_Imin[j])
@@ -83,7 +84,7 @@ public class Termoclastismo {
                 else if (arr_Imax[i] < arr_Imin[j])
                     i = i + 1;
             }
-            System.out.println(distancia);        
+            System.out.println(distancia);
         }
     }
     
@@ -91,11 +92,9 @@ public class Termoclastismo {
         Scanner sc = new Scanner(System.in);
         
         int n = sc.nextInt();
-        boolean primer = false;
         while (n != 0) {
             casDeProva(sc,n); 
-            if (!primer)
-               n = sc.nextInt();
+            n = sc.nextInt();
         }        
     }
 }   
