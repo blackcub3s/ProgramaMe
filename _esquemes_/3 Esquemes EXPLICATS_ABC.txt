@@ -1,0 +1,29 @@
+ESQUEMA A (CASOS CONEGUTS)
+	
+    Rebo enter amb els casos de
+    prova al principi de l'execucio
+
+    EXEMPLE:
+    https://shorturl.at/rAEFG   
+
+ESQUEMA B (MARCA ESPECIAL)
+
+    Programa va llegint casos de prova
+    fins que al final troba un cas de prova especial
+    (pot ser un 0, un punt, etc.)
+
+    EXEMPLE: 
+    https://shorturl.at/hmX27 [compte, també ESQUEMA A]
+
+
+ESQUEMA C (NO INFORMA FINAL)
+
+    Programa va llegint casos de 
+    prova fins que no quedin més dades 
+
+    EXEMPLE: 
+    https://aceptaelreto.com/problem/statement.php?id=713 
+    [requereix usar sc.hasNext(), sc.hasNextInt(), etc.]
+
+    
+	
