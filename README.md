@@ -192,9 +192,8 @@ https://github.com/blackcub3s/ProgramaMe/blob/caa4297df9f934b73be60bacb211fdc099
 
 ## [Problema "Termoclastismo"](https://aceptaelreto.com/problem/statement.php?id=683&cat=156) (difícil)
 
-Per a qualsevol cas de prova donat, veiem que el problema de termoclastismo és senzill de fer per trobar les temperatures màximes i mínimes; però no ho és tant per trobar la diferència mínima entre les posicions que ocupen en la seqüència d'entrada d'una temperatura màxima i una temperatura mínima (és a dir, el que ens defineixen com la **distància mínima** entre ambdues). La resolució aquí mostrada **dóna WA** encara que he provat tots els casos de prova possibles que se m'han acudit i funciona bé. Prego al lector pugui trobar l'estratègia per fer que passi el test de la pàgina d'aprendre a programar (vegeu el link del títol del problema i després cliqueu en pestanya enviar):
+Per a qualsevol cas de prova donat, veiem que el problema de termoclastismo és senzill de fer per trobar les temperatures màximes i mínimes; però no ho és tant per trobar la diferència mínima entre les posicions que ocupen en la seqüència d'entrada d'una temperatura màxima i una temperatura mínima (és a dir, el que ens defineixen com la **distància mínima** entre ambdues). La resolució aquí mostrada dóna **AC** però per a arribar-hi ha calgut passar per diverses Wrong Answers. 
 
-https://github.com/blackcub3s/ProgramaMe/blob/da884c42429098c842ebbf5ee74de30f86f62c2c/villaviciosaTerrassa2023/Termoclastismo.java#L3-L100
 
 A continuació explicaré l'estratègia seguida i l'algoritme emprat:
 

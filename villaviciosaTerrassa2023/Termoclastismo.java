@@ -76,9 +76,11 @@ public class Termoclastismo {
             
             int i = 0;
             int j = 0;
-            int distancia = 200001;
+            int distancia = 200001; //o b 200001
             while (i < nMax && j < nMin && distancia != 1) {
-                distancia = Math.abs(arr_Imax[i] - arr_Imin[j]);
+                //FONAMENTAL FER EL MINIM!
+                distancia = Math.min(distancia, Math.abs(arr_Imax[i] - arr_Imin[j]));
+                
                 if (arr_Imax[i] > arr_Imin[j])
                     j = j + 1; 
                 else if (arr_Imax[i] < arr_Imin[j])
