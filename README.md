@@ -194,6 +194,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/caa4297df9f934b73be60bacb211fdc099
 
 Per a qualsevol cas de prova donat, veiem que el problema de termoclastismo és senzill de fer per trobar les temperatures màximes i mínimes; però no ho és tant per trobar la diferència mínima entre les posicions que ocupen en la seqüència d'entrada d'una temperatura màxima i una temperatura mínima (és a dir, el que ens defineixen com la **distància mínima** entre ambdues). La resolució aquí mostrada dóna **AC** però per a arribar-hi ha calgut passar per diverses Wrong Answers. 
 
+https://github.com/blackcub3s/ProgramaMe/blob/41ddef4c41f5df0fd36fabe0393a6d400faed479/villaviciosaTerrassa2023/Termoclastismo.java#L3-L102
 
 A continuació explicaré l'estratègia seguida i l'algoritme emprat:
 
@@ -220,13 +221,13 @@ Per procedir a cada iteració del bucle incrementarem en 1 l'índex de `arr_Imax
 
 Per exemple, a la primera iteració comparem `arr_Imax[0]` que és 2 amb `arr_Imin[0]` que és 0 (abs(2-0) --> 2 i per tant no hem acabat). Per tant, a la segona iteració, aumentarem en una unitat l'índex de `arr_Imin` (que té el valor més petit dels dos que hem comparat). Així doncs a la tercera iteració compararem  `arr_Imax[0]` que és 2 amb `arr_Imin[1]` que és 9. A la quarta iteració aumentarem l'índex que es mou per la llista `arr_Imax` (que ara te el valor més petit en la comparació anterior) i per tant compararem `arr_Imax[1]` que és 3 amb  `arr_Imin[1]` que és 9... I aixi fins arribar a trobar la diferència mínima que en aquest cas de prova es trobarà just abans del final de les llistes, quan fem la comparació `arr_Imax[3]` que és 11 i `arr_Imin[2]` que és 12.
 
-Aquest algoritme per cercar la distància mínima queda exemplificat en aquest gif per al cas particular que esmentavem:
+Aquest algoritme per cercar la distància mínima queda exemplificat en aquest gif per al cas particular que esmentavem (compte, l'algoritme en el gif no recull un error que havia comès inicial: que cal fer ```distancia = Math.min(distancia, Math.abs(arr_Imax[i] - arr_Imin[j]));``` en comptes de ```distancia = Math.abs(arr_Imax[i] - arr_Imin[j])```):
 
 ![El gif no ha carregat](_img_/gifTermoclastismo.gif)
 
 I el fragment de codi:
 
-https://github.com/blackcub3s/ProgramaMe/blob/da884c42429098c842ebbf5ee74de30f86f62c2c/villaviciosaTerrassa2023/Termoclastismo.java#L77-L87
+https://github.com/blackcub3s/ProgramaMe/blob/41ddef4c41f5df0fd36fabe0393a6d400faed479/villaviciosaTerrassa2023/Termoclastismo.java#L77-L90
 
 
 
