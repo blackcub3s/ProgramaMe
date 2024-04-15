@@ -242,7 +242,7 @@ Existeixen quatre casos a tenir en compte en aquest problema per quan recorrem e
 
 Per a fer-lo i que sigui acceptat amb veredicte AC a acepta el reto he tardat una hora. Cal vigilar on incrementem variables com "nreEstrellesEnLinia" i ser curós: ja que fem servir quatre índexos per resoldre'l. És fàcil confondre's i incrementar dins un for un index que no és:
 
-
+https://github.com/blackcub3s/ProgramaMe/blob/b4e071c3233fb9c11823b9af148b9c778e9bafef/Zaragoza2023/EspiralGalactica.java#L4-L87
 
 
 
