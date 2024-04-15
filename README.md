@@ -121,6 +121,12 @@ https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38
 
 
 
+
+
+
+
+
+
 # 2023 (Regional Villaviciosa de Odón i Terrassa)
 
 Aqui hi ha resolució de problemes de regional de villaviciosa d'odón i terrassa 2023, realitzats en la universitat europea i en l'institut nicolau copèrnic.
@@ -224,7 +230,30 @@ I el fragment de codi:
 https://github.com/blackcub3s/ProgramaMe/blob/da884c42429098c842ebbf5ee74de30f86f62c2c/villaviciosaTerrassa2023/Termoclastismo.java#L77-L87
 
 
-# Problemes de preparació
+
+
+# 2023 (Regional de Zaragoza)
+
+Aquí poso les meves solucions a problemes de la competició regional de saragossa al centre San Valero, l'any 2023:
+
+## [Problema "Espiral Galáctica"](https://aceptaelreto.com/problem/statement.php?id=697&cat=157)
+
+Existeixen quatre casos a tenir en compte en aquest problema per quan recorrem els elements de la espiral: quan ens movem cap amunt (disminuim index de fila una unitat), cap a la dreta (aumentem índex de columna una unitat), cap abaix (aumentem index de fila una unitat) i cap a l'esquerra (disminuim index de columna una unitat). Per a cada un dels casos cal prestar atenció a les condicions de finalització dels bucles. 
+
+Per a fer-lo i que sigui acceptat amb veredicte AC a acepta el reto he tardat una hora. Cal vigilar on incrementem variables com "nreEstrellesEnLinia" i ser curós: ja que fem servir quatre índexos per resoldre'l. És fàcil confondre's i incrementar dins un for un index que no és:
+
+
+
+
+
+
+
+
+
+
+
+
+# Altres problemes de preparació
 
 ## [Quadrats diabòlics i esotèrics](https://aceptaelreto.com/pub/problems/v001/01/st/problem.pdf)
 
