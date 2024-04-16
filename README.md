@@ -261,20 +261,28 @@ Per resoldre aquest problema he tardat 23 minuts. He optat per passar cada cas d
 https://github.com/blackcub3s/ProgramaMe/blob/fa4b0fc7bdeb88766656361667b9ddc89a41fa74/Zaragoza2023/CuriosaPropiedad9.java#L3-L50
 
 
-# 2024 (Regional de València)
+# 2024 (Regional de València) 
 
 Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta vam aconseguir enviar correctament els problemes A, B i D (equip de 2).
 
-## [Problema B: Binario equilibrado](asd) (facil)
+## [Problema B: Binario equilibrado] (facil)
 
-asd
+Aquest és el problema tal qual es va enviar a la competició, amb veredicte AC. Per resoldre'l cal verificar que:
+1. Primer digit de cada cas de prova igual al penúltim dígit del mateix i segon digit igual a l'últim del mateix. Si no es dóna això ja podem imprimir "ERROR".
+2. Si es dóna el cas 1, aleshores hem de mirar que el nombre de uns i de zeros de la següència o cas de prova sigui el mateix i imprimir que la sequència és "EQUILIBRADA".
 
-## [Problema D: 3 en raya FOREVER]() (intermig)
+Per resoldre'l cada línia s'ha llegit amb ```sc.nextLine()``` i després s'ha accedit a cada caràcter (cada 1 o cada 0) amb la funció dels strings ```charAt()```. Aquest és el codi del problema:
 
-Aquest és le problema tal qual es va enviar a la competició, amb veredicte AC. Cal tenir en compte que, per fer aquest problema, hem d'anar mirant, per a cada tauler (o cas de prova), tant 1 com 2:
+https://github.com/blackcub3s/ProgramaMe/blob/9dea857ca428e9f55cb80b514796a2f141ee5940/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaB.java#L3-L55
+
+## Problema D: 3 en raya FOREVER (intermig)
+
+Aquest és el problema tal qual es va enviar a la competició, amb veredicte AC. Pot ser que no sigui el més elegant però és tal qual se va enviar i volia conservar-ho com a tal. Cal tenir en compte que, per fer aquest problema, hem d'anar mirant, per a cada tauler (o cas de prova), tant 1 com 2:
 
 1. Si algú ha tirat al centre (O o X)
 2. Si el que tira al centre es O, aquest jugador potencialment podrà arribar a tenir 5 tirades mentre que l'altre només 4 (ja que els jugadors tiren de forma alterna i el tauler té un nombre senar de caselles); i viceversa, si el que tira primer al centre es X això voldrà dir que X tindrà una tirada més que O. També es pot donar que un cas de prova o tauler tingui el mateix nombre de tirades tant de un com de l'altre (per exemple, perquè sigui una partida inacabada en que senzillament queda un torn per tirar en algun dels dos jugadors). Així doncs, a més a més de comprovar que un jugador (sigui O o X) hagi tirat al centre de la casella per descartar que la partida sigui "IMPOSIBLE" també cal que comprovar el seguent: si O ha tirat primer caldrà que es compleixi que  ```nO - nX == 1``` o bé que ```nO - nX == 0```. Anàlogament, si X ha tirat primer caldrà que es compleixi que ```nX - nO == 1``` o bé que ```nX - nO == 0```.
+
+Per llegir cada cas de prova (cada tauler de tres en ratlla) em fet servir tres cops la funció ```sc.nextLine()```.
 
 Aquest és el codi del problema:
 
