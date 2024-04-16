@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PrimerEsquema_CasosConeguts {
     
-    //PRE: n casos de prova
+    //PRE: n casos de prova (es possible que es pugui esborrar)
     //POST: sortida per pantalla per a cada cas de prova [DEFINIR]
     public static void casDeProva(int n, Scanner sc) {
         //fer codi amb sc.nextInt(), sc.nextLine() o sc.next() o el que toqui
