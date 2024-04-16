@@ -254,7 +254,9 @@ Per resoldre aquest problema i obtenir AC he tardat 30 minuts (no s'han necessit
 https://github.com/blackcub3s/ProgramaMe/blob/8d14cd26d8a625cff3f9786a0b78131faae27252/Zaragoza2023/Acronimos.java#L4-L36
 
 
+## [Problema "Curiosa Propiedad 9"](https://aceptaelreto.com/problem/statement.php?id=695&cat=157) (facil)
 
+Per resoldre aquest problema he tardat 23 minuts. He optat per passar cada cas de prova (un enter) a un string. Aquest string l'he passat a un vector d'enters ``vN_petit``, l'he ordenat amb el mètode sort per generar el valor més petit. Després he fet servir aquest vector ordenat per generar el valor més gran (en un altre vector d'enters ``vN_gran`` simplement invertint l'ordenació del vector anterior). Aquests vectors d'enters els he fet servir per crear sengles strings que tenen els valors dels enters passats a string i concatenats. Després he passat de nou a enter, prèviament eliminant el padding dels valors petits amb ```petit = petit.replaceFirst("^0+", "")```.
 
 # Altres problemes de preparació
 
