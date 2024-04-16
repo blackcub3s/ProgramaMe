@@ -265,15 +265,23 @@ https://github.com/blackcub3s/ProgramaMe/blob/fa4b0fc7bdeb88766656361667b9ddc89a
 
 Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta vam aconseguir enviar correctament els problemes A, B i D (equip de 2).
 
-## [Problema B: Binario equilibrado] (facil)
+## Problema A: Secuencia digna
+
+TO DO
+
+## Problema B: Binario equilibrado (facil)
 
 Aquest és el problema tal qual es va enviar a la competició, amb veredicte AC. Per resoldre'l cal verificar que:
-1. Primer digit de cada cas de prova igual al penúltim dígit del mateix i segon digit igual a l'últim del mateix. Si no es dóna això ja podem imprimir "ERROR".
-2. Si es dóna el cas 1, aleshores hem de mirar que el nombre de uns i de zeros de la següència o cas de prova sigui el mateix i imprimir que la sequència és "EQUILIBRADA".
+1. El primer digit de cada cas de prova sigui igual al penúltim dígit del mateix i que el segon digit de cada cas de prova sigui igual a l'últim del mateix. Si no es dóna això, ja podem imprimir "ERROR" i anar a processar el següent cas de prova.
+2. Si es dóna l'anterior premisa, aleshores hem de mirar que el nombre de uns i de zeros de la següència o cas de prova sigui el mateix i imprimir que la sequència és "EQUILIBRADA".
 
-Per resoldre'l cada línia s'ha llegit amb ```sc.nextLine()``` i després s'ha accedit a cada caràcter (cada 1 o cada 0) amb la funció dels strings ```charAt()```. Aquest és el codi del problema:
+Cada cas de prova ocupa una línia i es llegeix pel CEE amb ```sc.nextLine()```, accendint després a cada caràcter (cada 1 o cada 0) amb la funció dels strings ```charAt()```. Aquest és el codi del problema:
 
 https://github.com/blackcub3s/ProgramaMe/blob/9dea857ca428e9f55cb80b514796a2f141ee5940/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaB.java#L3-L55
+
+## Problema C: Trampeando el feedback
+
+TO DO
 
 ## Problema D: 3 en raya FOREVER (intermig)
 
@@ -287,6 +295,23 @@ Per llegir cada cas de prova (cada tauler de tres en ratlla) em fet servir tres 
 Aquest és el codi del problema:
 
 https://github.com/blackcub3s/ProgramaMe/blob/1bd74faa06046857b148d76b8f4b2a7d9d6547d4/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaD.java#L3-L93
+
+## Problema E: Código único
+
+TO DO
+
+## Problema F: Identificando Componentes
+
+TO DO
+
+## Problema G: Implementación de proyectos de software
+
+TO DO
+
+## Problema H: Recuperando tesoros
+
+TO DO
+
 
 
 
