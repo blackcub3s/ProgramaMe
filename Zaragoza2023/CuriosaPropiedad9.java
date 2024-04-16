@@ -27,7 +27,7 @@ public class CuriosaPropiedad9 {
         }               
         
         
-        petit = petit.replaceFirst("0+", ""); //uso expressio regularp er treure el padding de l'esquerra de zeros
+        petit = petit.replaceFirst("0+", ""); //uso expressio regularexpression er treure el padding de l'esquerra de zeros
 
         int diferencia = Integer.parseInt(gran) - Integer.parseInt(petit);
         int quocient = diferencia/9;
