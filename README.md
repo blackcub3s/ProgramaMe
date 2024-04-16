@@ -251,7 +251,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/b4e071c3233fb9c11823b9af148b9c778e
 Per resoldre aquest problema i obtenir AC he tardat 30 minuts (no s'han necessitat diversos enviaments). Calia fer ús del mètode ```sc.nextLine()``` per obtenir cada linia (cas de prova) i funcions com ```linia.Split(" ")``` per tallar el contingut de cada linia en paraules. Un cop fet això podiem trobar si una paraula començava per majusucula o no amb ```Character.isUpperCase``` (fent servir el mètode dels strings ```charAt()``` passant el valor 0 com a paràmetre per obtenir la primera lletra de cada paraula):
 
 
-
+https://github.com/blackcub3s/ProgramaMe/blob/8d14cd26d8a625cff3f9786a0b78131faae27252/Zaragoza2023/Acronimos.java#L4-L36
 
 
 
