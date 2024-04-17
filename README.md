@@ -10,7 +10,7 @@
    - [Problema F (Fase final)](#problema-f-fase-final)
 
 3. [2023 (Regional Villaviciosa de Odón i Terrassa)](#2023-regional-villaviciosa-de-odón-i-terrassa)
-   - [Problema "Metidos en un cajón (molt fàcil)"](#problema-metidos-en-un-cajón-molt-fàcil) 
+   - [Problema "Metidos en un cajón" (molt fàcil)](#problema-metidos-en-un-cajón-molt-fàcil) 
    - [Problema "dia mundial piano" -anys de traspàs- (fàcil)](#problema-dia-mundial-piano-anys-de-traspàs-fàcil) 
    - [Problema "Verdugo" -l'ahorcado- (intermig)](#problema-verdugo-lahorcado-intermig) 
 
@@ -160,7 +160,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38
 
 Aqui hi ha resolució de problemes de regional de villaviciosa d'odón i terrassa 2023, realitzats en la universitat europea i en l'institut nicolau copèrnic.
 
-## [Problema "Metidos en un cajón (molt fàcil)"](https://aceptaelreto.com/problem/statement.php?id=682&cat=156)
+## [Problema "Metidos en un cajón" (molt fàcil)](https://aceptaelreto.com/problem/statement.php?id=682&cat=156)
 
 Dificultat extremadament fàcil. Si es programa de zero es pot tenir el programa llest i entregat en menys de quatre minuts. Nom
 
