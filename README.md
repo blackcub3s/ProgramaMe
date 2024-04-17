@@ -279,7 +279,7 @@ Cada cas de prova ocupa una línia i es llegeix pel CEE amb ```sc.nextLine()```,
 
 https://github.com/blackcub3s/ProgramaMe/blob/9dea857ca428e9f55cb80b514796a2f141ee5940/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaB.java#L3-L55
 
-## Problema C: Trampeando el feedback
+## Problema C: Trampeando el feedback (intermig)
 
 Aquest problema el vaig intentar a la competició programaMe però no em va donar temps d'acabar-lo. Aquesta versió, modificada a posteriori, passa els casos de prova especificats a sota però **NO ha passat ENCARA el jutge online** (queda per verificar-lo un cop pengin les solucions al jutge online, així que prego al lector llegir el codi amb cautela).
 
