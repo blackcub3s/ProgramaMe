@@ -1,3 +1,15 @@
+# 0. Index
+
+1. [Introducció](#1-introducció)
+2. [Escalfament pre-nadalenc (preparació 2024)](#2-escalfament-pre-nadalenc-preparació-2024)
+   - [Problema A (Elegint la seu del mundial)](#problema-a-elegint-la-seu-del-mundial)
+   - [Problema B (Places disponibles per al mundial)](#problema-b-places-disponibles-per-al-mundial)
+   - [Problema C (Verificació de les entrades)](#problema-c-verificació-de-les-entrades)
+   - [Problema D (Events dels partits)](#problema-d-events-dels-partits)
+   - [Problema E (Fase de grups)](#problema-e-fase-de-grups)
+   - [Problema F (Fase final)](#problema-f-fase-final)
+
+
 # 1. Introducció
 
 En aquest repositori es resoldran problemes de la competició ProgramaMe. Tots els problemes pujats estan validats amb AC (_accepted_ o acceptat) fent servir el validador de la pàgina web https://aceptaelreto.com/ que implementa solucions als mateixos i compara els outputs amb la sortida dels programes que he fet i he publicat aquí, a menys que s'indiqui el contrari en el comentari del problema (si en algun cas no és acceptat diré quin error s'ha produït i per què no s'ha pogut fer funcionar). Cada problema té al titol un link a la pàgina mencionada, que conté el compilador per fer la validació del codi del qui l'intenti i una còpia de l'enunciat.
@@ -117,6 +129,12 @@ A la tercera iteració o fase mirarem només la primera quarta part del vector `
 A sota la solució:
 
 https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38b6afa0/Escalfament%20PreNadalenc%202024/ProblemaF.java#L9-L61
+
+
+
+
+
+
 
 
 
