@@ -9,12 +9,12 @@
    - [Problema E (Fase de grups)](#problema-e-fase-de-grups)
    - [Problema F (Fase final)](#problema-f-fase-final)
 
-3. [2023 (Regional Villaviciosa de Odón i Terrassa)](#2023-regional-villaviciosa-de-odón-i-terrassa)
+3. [2023 (Regional Villaviciosa de Odón i Terrassa)](#3-2023-regional-villaviciosa-de-odón-i-terrassa)
    - [Problema "Metidos en un cajón" (molt fàcil)](#problema-metidos-en-un-cajón-molt-fàcil) 
    - [Problema "dia mundial piano" o anys de traspàs (fàcil)](#problema-dia-mundial-piano-o-anys-de-traspàs-fàcil) 
    - [Problema "Verdugo" o l'ahorcado (intermig)](#problema-verdugo-o-lahorcado-intermig) 
 
-4. [2023 (Regional de Zaragoza)](#2023-regional-de-zaragoza)
+4. [2023 (Regional de Zaragoza)](#4-2023-regional-de-zaragoza)
    - [Problema "Espiral Galáctica" (intermig)](#problema-espiral-galáctica-intermig)
    - [Problema "Acrónimos" (fàcil-intermig)](#problema-acrónimos-fàcil-intermig) 
    - [Problema "Curiosa Propiedad 9 (fàcil)"](#problema-curiosa-propiedad-9-fàcil)
@@ -156,7 +156,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/7c1952672df73f0f251b18c5edfae3fa38
 
 
 
-# 2023 (Regional Villaviciosa de Odón i Terrassa)
+# 3. 2023 (Regional Villaviciosa de Odón i Terrassa)
 
 Aqui hi ha resolució de problemes de regional de villaviciosa d'odón i terrassa 2023, realitzats en la universitat europea i en l'institut nicolau copèrnic.
 
@@ -265,7 +265,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/41ddef4c41f5df0fd36fabe0393a6d400f
 
 
 
-# 2023 (Regional de Zaragoza)
+# 4. 2023 (Regional de Zaragoza)
 
 Aquí poso les meves solucions a problemes de la competició regional de saragossa al centre San Valero, l'any 2023:
 
