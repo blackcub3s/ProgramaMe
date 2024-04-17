@@ -12,7 +12,7 @@
 3. [2023 (Regional Villaviciosa de Odón i Terrassa)](#2023-regional-villaviciosa-de-odón-i-terrassa)
    - [Problema "Metidos en un cajón (molt fàcil)"](#problema-metidos-en-un-cajón-molt-fàcil) 
    - [Problema "dia mundial piano" -anys de traspàs- (fàcil)](#problema-dia-mundial-piano-anys-de-traspàs-fàcil) 
-   - [Problema "Verdugo" (l'ahorcado) (intermig)](#problema-verdugo-lahorcado-intermig) 
+   - [Problema "Verdugo" -l'ahorcado- (intermig)](#problema-verdugo-lahorcado-intermig) 
 
 4. [2023 (Regional de Zaragoza)](#2023-regional-de-zaragoza)
    - [Problema "Espiral Galáctica" (intermig)](#problema-espiral-galáctica-intermig)
@@ -174,7 +174,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/25d2fae7c750acce8de3930ebb9dc60ad5
 
 
 
-## [Problema "dia mundial piano" (anys de traspàs) (fàcil)](https://aceptaelreto.com/problem/statement.php?id=676&cat=156)
+## [Problema "dia mundial piano" -anys de traspàs- (fàcil)](https://aceptaelreto.com/problem/statement.php?id=676&cat=156)
 
 El problema d'anys de traspàs és típic i no és llarg de fer, però no és trivial de codificar si no es presta atenció als condicionals. L'enunciat no deixava les normes de l'any de traspàs molt molt clares, pel meu gust; així doncs es pot consultar [aquest recurs electrònic](https://learn.microsoft.com/es-es/office/troubleshoot/excel/determine-a-leap-year) i després programar-ho a partir de les següents normes:
 
@@ -192,7 +192,7 @@ La solució:
 https://github.com/blackcub3s/ProgramaMe/blob/9224ba2612898647e7f3ab2410e7046ee4e1a7e7/villaviciosaTerrassa2023/bisiesto.java#L1-L38
 
 
-## [Problema "Verdugo" (l'ahorcado)](https://aceptaelreto.com/problem/statement.php?id=678&cat=156) (intermig)
+## [Problema "Verdugo" -l'ahorcado- (intermig)](https://aceptaelreto.com/problem/statement.php?id=678&cat=156)
 
 Per resoldre aquest problema he fet servir dos conjunts. No ho diu al problema però se sobreentèn que cal tenir en compte que si un jugador tracta d'endivinar una lletra, i aquesta es repeteix múltiples vegades en la paraula oculta, automàticament haurà adivinat totes les ocurrències de la lletra en la paraula oculta.
 
