@@ -19,7 +19,10 @@
    - [Problema "Acrónimos" (fàcil-intermig)](#problema-acrónimos-fàcil-intermig) 
    - [Problema "Curiosa Propiedad 9 (fàcil)"](#problema-curiosa-propiedad-9-fàcil)
 
-
+5. [2023 (Regional de Zaragoza)]()
+    - [Problema "Espiral Galáctica" (Intermig)](#5-espiral-galáctica-intermig)
+    - [Problema "Acrónimos" (fàcil-intermig)](problema-acrónimos-fàcil-intermig)
+    - [Problema "Curiosa Propiedad 9" (fàcil)](problema-curiosa-propiedad-9-facil)
 
 # 1. Introducció
 
@@ -265,6 +268,13 @@ https://github.com/blackcub3s/ProgramaMe/blob/41ddef4c41f5df0fd36fabe0393a6d400f
 
 
 
+
+
+
+
+
+
+
 # 4. 2023 (Regional de Zaragoza)
 
 Aquí poso les meves solucions a problemes de la competició regional de saragossa al centre San Valero, l'any 2023:
@@ -294,9 +304,26 @@ Per resoldre aquest problema he tardat 23 minuts. He optat per passar cada cas d
 https://github.com/blackcub3s/ProgramaMe/blob/fa4b0fc7bdeb88766656361667b9ddc89a41fa74/Zaragoza2023/CuriosaPropiedad9.java#L3-L50
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 2024 (Regional de València) 
 
-Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta vam aconseguir enviar correctament els problemes A, B i D (equip de 2).
+Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta hi vaig participar presencialment (els problemes dels apartats previs conformaven la preparació per aquesta competició). Vam aconseguir enviar correctament els problemes A, B i D (equip de 2) dins les dues hores que teniem per a pujar-ho al jutge online de la competició.
 
 ## Problema A: Secuencia digna
 
