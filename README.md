@@ -281,9 +281,9 @@ https://github.com/blackcub3s/ProgramaMe/blob/9dea857ca428e9f55cb80b514796a2f141
 
 ## Problema C: Trampeando el feedback
 
-Aquest problema el vaig intentar a la competició programaMe però no em va donar temps d'acabar-lo. Aquesta versió, modificada a posteriori, passa els casos de prova especificats a sota però **NO ha passat ENCARA el jutge online** (queda per verificar-lo un cop pengin les solucions al jutge online de la web d'acepta el reto, si les penjen).
+Aquest problema el vaig intentar a la competició programaMe però no em va donar temps d'acabar-lo. Aquesta versió, modificada a posteriori, passa els casos de prova especificats a sota però **NO ha passat ENCARA el jutge online** (queda per verificar-lo un cop pengin les solucions al jutge online, així que prego al lector llegir el codi amb cautela).
 
-La lectura de l'entrada té un nombre T que informa del nombre de casos de prova. A continuació trobem les T casos de prova, cada un composats de 2 linies:
+La lectura de l'entrada té un nombre T que informa del nombre de casos de prova. Després trobem, per a cada cas de prova, dues línies que el composen. A continuació mostrem l'exemple d'input públic que van mostrar durant la competició: 
 
 ``` 
 3
@@ -296,7 +296,7 @@ La lectura de l'entrada té un nombre T que informa del nombre de casos de prova
 
 ```
 
-Els _outputs_ que el programa ha de generar pels tres casos de prova anteriors són (són només els casos públics, als que per ara tinc accés):
+Els _outputs_ que el programa ha de generar pels tres casos de prova anteriors són:
 
 ```
 19
