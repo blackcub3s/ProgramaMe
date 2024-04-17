@@ -14,6 +14,10 @@
    - [Problema "dia mundial piano" (anys de traspàs)](#problema-dia-mundial-piano-anys-de-traspàs-fàcil) 
    - [Problema "Verdugo" (l'ahorcado)](#problema-verdugo-lahorcado-intermig) 
 
+4. [2023 (Regional de Zaragoza)](#2023-regional-de-zaragoza)
+   - [Problema "Espiral Galáctica"](#problema-espiral-galactica)
+   - [Problema "Acrónimos"](#problema-acrónimos) 
+   - [Problema "Curiosa Propiedad 9"](#problema-curiosa-propiedad-9)
 
 
 
@@ -253,6 +257,10 @@ Aquest algoritme per cercar la distància mínima queda exemplificat en aquest g
 I el fragment de codi:
 
 https://github.com/blackcub3s/ProgramaMe/blob/41ddef4c41f5df0fd36fabe0393a6d400faed479/villaviciosaTerrassa2023/Termoclastismo.java#L77-L90
+
+
+
+
 
 
 
