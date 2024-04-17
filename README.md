@@ -11,8 +11,8 @@
 
 3. [2023 (Regional Villaviciosa de Odón i Terrassa)](#2023-regional-villaviciosa-de-odón-i-terrassa)
    - [Problema "Metidos en un cajón" (molt fàcil)](#problema-metidos-en-un-cajón-molt-fàcil) 
-   - [Problema "dia mundial piano" o anys de traspàs (fàcil)](#problema-dia-mundial-piano-anys-de-traspàs-fàcil) 
-   - [Problema "Verdugo" o l'ahorcado (intermig)](#problema-verdugo-lahorcado-intermig) 
+   - [Problema "dia mundial piano" o anys de traspàs (fàcil)](#problema-dia-mundial-piano-o-anys-de-traspàs-fàcil) 
+   - [Problema "Verdugo" o l'ahorcado (intermig)](#problema-verdugo-o-lahorcado-intermig) 
 
 4. [2023 (Regional de Zaragoza)](#2023-regional-de-zaragoza)
    - [Problema "Espiral Galáctica" (intermig)](#problema-espiral-galáctica-intermig)
