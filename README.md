@@ -281,7 +281,56 @@ https://github.com/blackcub3s/ProgramaMe/blob/9dea857ca428e9f55cb80b514796a2f141
 
 ## Problema C: Trampeando el feedback
 
-TO DO
+Aquest problema el vaig intentar a la competició programaMe però no em va donar temps d'acabar-lo. Aquesta versió, modificada a posteriori, passa els casos de prova especificats a sota però **NO ha passat ENCARA el jutge online** (queda per verificar-lo un cop pengin les solucions al jutge online de la web d'acepta el reto, si les penjen).
+
+La lectura de l'entrada té un nombre T que informa del nombre de casos de prova. A continuació trobem les T casos de prova, cada un composats de 2 linies:
+
+``` 
+3
+4 10 5 5 10
+1 1 1 1
+4 10 5 5 10
+1 2 3 1
+7 0 5 0 2
+3 1 1 2 3 3 3
+
+```
+
+Els _outputs_ que el programa ha de generar pels tres casos de prova anteriors són (són només els casos públics, als que per ara tinc accés):
+
+```
+19
+18
+5
+```
+
+En la primera línia d'un cas de prova qualsevol trobem els nombres (per ordre) N, A, B, X i Y. Éssent N el nombre d'usuaris, A el nombre de likes que té el servidor A inicialment, B el nombre de dislikes que té el servidor A inicialment, X el nombre de likes que té el servidor B inicialment i, vinalment, Y el nombre de dislikes que té el servidor B inicialment.
+
+El problema en essència et diu que, a partir d'aquestes dades, tens dos servidors on es poden fer votacions de like i dislike, cada un amb un contador independent de likes i dislikes. Després, també et diu tens tres tipus d'usuaris: el **tipus 1**, quedóna sempre like en una votació; El **tipus 2**, que dóna sempre dislike en una votació; i el **tipus3**  que és un usuari _influenciable_, perquè dóna dislike sempre que ell vegi que al servidor on està votant hi hagi més dislikes que likes de les votacions dels usuaris previs, o en cas contrari(si veu que hi ha més likes que dislikes o el mateix nombre de likes que de dislikes) aleshores dóna un like. 
+
+Finalment, et demanen que maximitzis la suma dels likes dels dos servidors. Aquesta maximització l'hauràs de fer manipulant a quin servidor voldràs enviar cada usuari, perquè voti. Considerant que cada usuari vota una i només una vegada, i que no pot no votar. Deixant de banda l'ètica implicada en aquest enunciat, aquí està el codi que resol el problema tal i com jo l'he entès (a sota del codi explico diverses claus per entendre el codi):
+
+https://github.com/blackcub3s/ProgramaMe/blob/95cdec8c4c52070c0b7a8059041f6d28197c8cee/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaC.java#L3-L78
+
+
+L'estratègia que he emprat per solucionar el problema, a grans trets és la següent:
+1. Els usuaris tipus 1 està clar que caldrà enviar-los al servidor que tingui més likes en relació al nombre de likes (al "millor" servidor). 
+2. Als usuaris de tipus 2 caldrà enviar-los al servidor que tingui un nombre menor de likes en relació al nombre de dislikes (és a a dir al "pitjor" servidor). 
+3. Els usuaris de tipus 3 ja són més complexos. En essència només els enviarem al "millor" servidor si en podem aconseguir incrementar els likes i, si veiem que no aconseguim que l'usuari n'aumenti els likes, per evitar que ens posi un dislike al millor servidor, l'enviarem a votar al "pitjor" perquè el compteig negatiu no afecti al "millor":
+
+Per trobar quin és el millor servidor tenim les variables `dA` i `dB`, que les calculem fent i les descrivim en els comentaris:
+
+https://github.com/blackcub3s/ProgramaMe/blob/95cdec8c4c52070c0b7a8059041f6d28197c8cee/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaC.java#L26-L27
+
+Per exemple, anem a posar un cas particular: si fem una comparació com la seqüent `dA > dB` i aquesta és certa, això significa que el servidor `dA` té mes likes en relació a dislikes que el servidor b (és, en aquest cas particular, el servidor "millor"). Evitarem que un usuari de tipus 3 voti en `dA` si el servidor A té més dislikes que likes i evitarem que un usuari de tipus 2 voti en servidor A; pel contrari, farem que l'usuari de tipus 3 voti en `dA` si el servidor A té més likes que dislikes (o igual nombre de likes que de dislikes) i que l'usuari 1 també hi voti. A cada introducció d'un usuari el programa reevaluarà els valors `dA` i `dB` per prendre la decisió més acertada.
+
+En essència per cada usuari que llegim (1, 2 o 3 -del tipus corresponent-) executarem aquest codi:
+
+https://github.com/blackcub3s/ProgramaMe/blob/95cdec8c4c52070c0b7a8059041f6d28197c8cee/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaC.java#L24-L62
+
+I en acabar imprimirem el nombre de likes total del servidor:
+
+https://github.com/blackcub3s/ProgramaMe/blob/95cdec8c4c52070c0b7a8059041f6d28197c8cee/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaC.java#L65
 
 ## Problema D: 3 en raya FOREVER (intermig)
 
