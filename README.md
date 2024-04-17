@@ -15,7 +15,7 @@
    - [Problema "Verdugo" (l'ahorcado)](#problema-verdugo-lahorcado-intermig) 
 
 4. [2023 (Regional de Zaragoza)](#2023-regional-de-zaragoza)
-   - [Problema "Espiral Galáctica"](#problema-espiral-galactica)
+   - [Problema "Espiral Galáctica"](#problema-espiral-galáctica)
    - [Problema "Acrónimos"](#problema-acrónimos-fàcil-intermig) 
    - [Problema "Curiosa Propiedad 9"](#problema-curiosa-propiedad-9-fàcil)
 
