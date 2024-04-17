@@ -21,6 +21,24 @@
 
 5. [2024 (Regional de València)](#5-2024-regional-de-valencia)
 
+   - [Problema A: Secuencia digna](#problema-a-secuencia-digna)
+   - [Problema B: Binario equilibrado (fàcil)](#problema-b-binario-equilibrado-fàcil)
+   - [Problema C: Trampeando el feedback (intermig)](#problema-c-trampeando-el-feedback-intermig)
+   - [Problema D: 3 en raya FOREVER (intermig)](#problema-d-3-en-raya-forever-intermig)
+   - [Problema E: Código único](#problema-e-codigo-único)
+   - [Problema F: Identificando Componentes](#problema-f-identificando-componentes)
+   - [Problema G: Implementación de proyectos de software](#problema-g-implementación-de-proyectos-de-software)
+   - [Problema H: Recuperando tesoros](#problema-h-recuperando-tesoros)
+
+
+
+
+
+
+
+
+
+
 
 # 1. Introducció
 
@@ -325,7 +343,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/fa4b0fc7bdeb88766656361667b9ddc89a
 
 
 
-# 2024 (Regional de València) 
+# 5. 2024 (Regional de València) 
 
 Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta hi vaig participar presencialment (els problemes dels apartats previs conformaven la preparació per aquesta competició). Vam aconseguir enviar correctament els problemes A, B i D (equip de 2) dins les dues hores que teniem per a pujar-ho al jutge online de la competició.
 
@@ -333,7 +351,7 @@ Aquests problemes pertanyen a la programaMe regional de València organitzada pe
 
 TO DO
 
-## Problema B: Binario equilibrado (facil)
+## Problema B: Binario equilibrado (fàcil)
 
 Aquest és el problema tal qual es va enviar a la competició, amb veredicte AC. Per resoldre'l cal verificar que:
 1. El primer digit de cada cas de prova sigui igual al penúltim dígit del mateix i que el segon digit de cada cas de prova sigui igual a l'últim del mateix. Si no es dóna això, ja podem imprimir "ERROR" i anar a processar el següent cas de prova.
