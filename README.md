@@ -16,8 +16,8 @@
 
 4. [2023 (Regional de Zaragoza)](#2023-regional-de-zaragoza)
    - [Problema "Espiral Galáctica" (intermig)](#problema-espiral-galáctica-intermig)
-   - [Problema "Acrónimos"](#problema-acrónimos-fàcil-intermig) 
-   - [Problema "Curiosa Propiedad 9"](#problema-curiosa-propiedad-9-fàcil)
+   - [Problema "Acrónimos" (fàcil-intermig)](#problema-acrónimos-fàcil-intermig) 
+   - [Problema "Curiosa Propiedad 9 (fàcil)"](#problema-curiosa-propiedad-9-fàcil)
 
 
 
@@ -279,7 +279,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/b4e071c3233fb9c11823b9af148b9c778e
 
 
 
-## [Problema "Acrónimos"](https://aceptaelreto.com/problem/statement.php?id=694&cat=157) (fàcil-intermig)
+## [Problema "Acrónimos" (fàcil-intermig)](https://aceptaelreto.com/problem/statement.php?id=694&cat=157)
 
 Per resoldre aquest problema i obtenir AC he tardat 30 minuts (no s'han necessitat diversos enviaments). Calia fer ús del mètode ```sc.nextLine()``` per obtenir cada linia (cas de prova) i funcions com ```linia.Split(" ")``` per tallar el contingut de cada linia en paraules. Un cop fet això podiem trobar si una paraula començava per majusucula o no amb ```Character.isUpperCase``` (fent servir el mètode dels strings ```charAt()``` passant el valor 0 com a paràmetre per obtenir la primera lletra de cada paraula):
 
@@ -287,7 +287,7 @@ Per resoldre aquest problema i obtenir AC he tardat 30 minuts (no s'han necessit
 https://github.com/blackcub3s/ProgramaMe/blob/8d14cd26d8a625cff3f9786a0b78131faae27252/Zaragoza2023/Acronimos.java#L4-L36
 
 
-## [Problema "Curiosa Propiedad 9"](https://aceptaelreto.com/problem/statement.php?id=695&cat=157) (fàcil)
+## [Problema "Curiosa Propiedad 9" (fàcil)](https://aceptaelreto.com/problem/statement.php?id=695&cat=157)
 
 Per resoldre aquest problema he tardat 23 minuts. He optat per passar cada cas de prova (un enter) a un string. Aquest string l'he passat a un vector d'enters ``vN_petit``, l'he ordenat amb el mètode sort per generar el valor més petit. Després he fet servir aquest vector ordenat per generar el valor més gran (en un altre vector d'enters ``vN_gran`` simplement invertint l'ordenació del vector anterior). Aquests vectors d'enters els he fet servir per crear sengles strings que tenen els valors dels enters passats a string i concatenats. Després he passat de nou a enter, prèviament eliminant el padding de zeros a l'inici de l'string dels valors petits amb ```petit = petit.replaceFirst("0+", "");```. En aquesta funció el primer paràmetre es una expressió regular ("0+" significa esborrar totes les ocurrencies de zero -+ significa totes-) però com que fem servir la funció  ```replaceFirst``` en comptes de ```replaceAll```, el que farà serà eliminar només les ocurrències de zeros a l'esquerra dels petits (no a tot l'string). 
 
