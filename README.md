@@ -15,7 +15,7 @@
    - [Problema "Verdugo" (l'ahorcado)](#problema-verdugo-lahorcado-intermig) 
 
 4. [2023 (Regional de Zaragoza)](#2023-regional-de-zaragoza)
-   - [Problema "Espiral Galáctica"](#problema-espiral-galáctica)
+   - [Problema "Espiral Galáctica" (intermig)](#problema-espiral-galáctica-intermig)
    - [Problema "Acrónimos"](#problema-acrónimos-fàcil-intermig) 
    - [Problema "Curiosa Propiedad 9"](#problema-curiosa-propiedad-9-fàcil)
 
@@ -269,7 +269,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/41ddef4c41f5df0fd36fabe0393a6d400f
 
 Aquí poso les meves solucions a problemes de la competició regional de saragossa al centre San Valero, l'any 2023:
 
-## [Problema "Espiral Galáctica"](https://aceptaelreto.com/problem/statement.php?id=697&cat=157)
+## [Problema "Espiral Galáctica" (Intermig)](https://aceptaelreto.com/problem/statement.php?id=697&cat=157)
 
 Existeixen quatre casos a tenir en compte en aquest problema per quan recorrem els elements de la espiral: quan ens movem cap amunt (disminuim index de fila una unitat), cap a la dreta (aumentem índex de columna una unitat), cap abaix (aumentem index de fila una unitat) i cap a l'esquerra (disminuim index de columna una unitat). Per a cada un dels casos cal prestar atenció a les condicions de finalització dels bucles. 
 
