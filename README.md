@@ -19,6 +19,7 @@
    - [Problema "Acrónimos" (fàcil-intermig)](#problema-acrónimos-fàcil-intermig) 
    - [Problema "Curiosa Propiedad 9 (fàcil)"](#problema-curiosa-propiedad-9-fàcil)
 
+5. [2024 (Regional de València)](#5-2024-regional-de-valencia)
 
 
 # 1. Introducció
@@ -272,6 +273,10 @@ https://github.com/blackcub3s/ProgramaMe/blob/41ddef4c41f5df0fd36fabe0393a6d400f
 
 
 
+
+
+
+
 # 4. 2023 (Regional de Zaragoza)
 
 Aquí poso les meves solucions a problemes de la competició regional de saragossa al centre San Valero, l'any 2023:
@@ -299,6 +304,8 @@ https://github.com/blackcub3s/ProgramaMe/blob/8d14cd26d8a625cff3f9786a0b78131faa
 Per resoldre aquest problema he tardat 23 minuts. He optat per passar cada cas de prova (un enter) a un string. Aquest string l'he passat a un vector d'enters ``vN_petit``, l'he ordenat amb el mètode sort per generar el valor més petit. Després he fet servir aquest vector ordenat per generar el valor més gran (en un altre vector d'enters ``vN_gran`` simplement invertint l'ordenació del vector anterior). Aquests vectors d'enters els he fet servir per crear sengles strings que tenen els valors dels enters passats a string i concatenats. Després he passat de nou a enter, prèviament eliminant el padding de zeros a l'inici de l'string dels valors petits amb ```petit = petit.replaceFirst("0+", "");```. En aquesta funció el primer paràmetre es una expressió regular ("0+" significa esborrar totes les ocurrencies de zero -+ significa totes-) però com que fem servir la funció  ```replaceFirst``` en comptes de ```replaceAll```, el que farà serà eliminar només les ocurrències de zeros a l'esquerra dels petits (no a tot l'string). 
 
 https://github.com/blackcub3s/ProgramaMe/blob/fa4b0fc7bdeb88766656361667b9ddc89a41fa74/Zaragoza2023/CuriosaPropiedad9.java#L3-L50
+
+
 
 
 
