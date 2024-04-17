@@ -9,9 +9,9 @@
    - [Problema E (Fase de grups)](#problema-e-fase-de-grups)
    - [Problema F (Fase final)](#problema-f-fase-final)
 
-3. [2023 (Regional Villaviciosa de Odón i Terrassa)](#2023-regional-villaviciosa-de-odon-i-terrassa)
-   - [Problema "Metidos en un cajón"](#problema-metidos-en-un-cajon) 
-   - [Problema "dia mundial piano" (anys de traspàs)](#problema-dia-mundial-piano-anys-de-traspas) 
+3. [2023 (Regional Villaviciosa de Odón i Terrassa)](#2023-regional-villaviciosa-de-odón-i-terrassa)
+   - [Problema "Metidos en un cajón"](#problema-metidos-en-un-cajón) 
+   - [Problema "dia mundial piano" (anys de traspàs)](#problema-dia-mundial-piano-anys-de-traspàs) 
    - [Problema "Verdugo" (l'ahorcado)](#problema-verdugo-lahorcado) 
 
 
