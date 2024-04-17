@@ -25,7 +25,7 @@
    - [Problema B: Binario equilibrado (fàcil)](#problema-b-binario-equilibrado-fàcil)
    - [Problema C: Trampeando el feedback (intermig)](#problema-c-trampeando-el-feedback-intermig)
    - [Problema D: 3 en raya FOREVER (intermig)](#problema-d-3-en-raya-forever-intermig)
-   - [Problema E: Código único](#problema-e-codigo-único)
+   - [Problema E: Código único](#problema-e-código-único)
    - [Problema F: Identificando Componentes](#problema-f-identificando-componentes)
    - [Problema G: Implementación de proyectos de software](#problema-g-implementación-de-proyectos-de-software)
    - [Problema H: Recuperando tesoros](#problema-h-recuperando-tesoros)
