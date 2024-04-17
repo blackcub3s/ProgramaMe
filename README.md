@@ -19,10 +19,7 @@
    - [Problema "Acrónimos" (fàcil-intermig)](#problema-acrónimos-fàcil-intermig) 
    - [Problema "Curiosa Propiedad 9 (fàcil)"](#problema-curiosa-propiedad-9-fàcil)
 
-5. [2023 (Regional de Zaragoza)]()
-    - [Problema "Espiral Galáctica" (Intermig)](#5-espiral-galáctica-intermig)
-    - [Problema "Acrónimos" (fàcil-intermig)](problema-acrónimos-fàcil-intermig)
-    - [Problema "Curiosa Propiedad 9" (fàcil)](problema-curiosa-propiedad-9-facil)
+
 
 # 1. Introducció
 
