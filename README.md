@@ -345,7 +345,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/fa4b0fc7bdeb88766656361667b9ddc89a
 
 # 5. 2024 (Regional de València) 
 
-Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta hi vaig participar presencialment (els problemes dels apartats previs conformaven la preparació per aquesta competició). Vam aconseguir enviar correctament els problemes A, B i D (equip de 2) dins les dues hores que teniem per a pujar-ho al jutge online de la competició.
+Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta competició hi vaig participar presencialment amb un company en una aula de l'IES Abastos (els problemes dels apartats previs conformaven la preparació per aquesta competició). Vam aconseguir enviar correctament els problemes A, B i D (en equip de 2, el tercer integrant va faltar) dins les dues hores que teniem per a pujar-ho al jutge online de la competició.
 
 ## Problema A: Secuencia digna
 
@@ -440,7 +440,32 @@ TO DO
 
 ## Problema G: Implementación de proyectos de software
 
-TO DO
+El problema G l'he solucionat mitjançant un ```hashSet```. Per tenir eficiència computacional necessitem una estructura que guardi les habilitats dels desenvolupadors, eliminant-ne els repetits. També necessitem que pugui cercar de forma eficient cada una de les habilitats dels projectes, cosa que també pot fer el ```hashset```. 
+
+Aquest són els casos de prova públics:
+```
+5
+Alice FRONTEND BACKEND
+Bob DATABASE SECURITY
+Charlie FULLSTACK
+Diana FULLSTACK DATABASE
+Eva SECURITY
+3
+SistemaGestion FRONTEND BACKEND DATABASE
+WebSegura SECURITY DATABASE
+PlataformaEducativa FULLSTACK UI/UX
+
+```
+
+I la sortida correpsponent als mateixos:
+
+```
+POSIBLE
+POSIBLE
+IMPOSIBLE
+```
+
+NOTA: Aquesta versió funciona per als següents casos de prova públics. No s'ha testejat per al jutge online. Permet entrar més casos de prova si es vol ```sc.hasNext()
 
 ## Problema H: Recuperando tesoros
 
