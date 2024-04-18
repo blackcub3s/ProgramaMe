@@ -347,11 +347,11 @@ https://github.com/blackcub3s/ProgramaMe/blob/fa4b0fc7bdeb88766656361667b9ddc89a
 
 Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta competició hi vaig participar presencialment amb un company en una aula de l'IES Abastos (els problemes dels apartats previs conformaven la preparació per aquesta competició). Vam aconseguir enviar correctament els problemes A, B i D (en equip de 2, el tercer integrant va faltar) dins les dues hores que teniem per a pujar-ho al jutge online de la competició.
 
-## Problema A: Secuencia digna
+## [Problema A: Secuencia digna](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 TO DO
 
-## Problema B: Binario equilibrado (fàcil)
+## [Problema B: Binario equilibrado (fàcil)](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 Aquest és el problema tal qual es va enviar a la competició, amb veredicte AC. Per resoldre'l cal verificar que:
 1. El primer digit de cada cas de prova sigui igual al penúltim dígit del mateix i que el segon digit de cada cas de prova sigui igual a l'últim del mateix. Si no es dóna això, ja podem imprimir "ERROR" i anar a processar el següent cas de prova.
@@ -361,7 +361,7 @@ Cada cas de prova ocupa una línia i es llegeix pel CEE amb ```sc.nextLine()```,
 
 https://github.com/blackcub3s/ProgramaMe/blob/9dea857ca428e9f55cb80b514796a2f141ee5940/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaB.java#L3-L55
 
-## Problema C: Trampeando el feedback (intermig)
+## [Problema C: Trampeando el feedback (intermig)](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 Aquest problema el vaig intentar a la competició programaMe però no em va donar temps d'acabar-lo. Aquesta versió, modificada a posteriori, passa els casos de prova especificats a sota però **NO ha passat ENCARA el jutge online** (queda per verificar-lo un cop pengin les solucions al jutge online, així que prego al lector llegir el codi amb cautela).
 
@@ -417,7 +417,7 @@ En acabar de llegir l'últim usuari, imprimirem el nombre de likes total del ser
 
 https://github.com/blackcub3s/ProgramaMe/blob/95cdec8c4c52070c0b7a8059041f6d28197c8cee/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaC.java#L65
 
-## Problema D: 3 en raya FOREVER (intermig)
+## [Problema D: 3 en raya FOREVER (intermig)](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 Aquest és el problema tal qual es va enviar a la competició, amb veredicte AC. Pot ser que no sigui el més elegant però és tal qual se va enviar i volia conservar-ho com a tal. Cal tenir en compte que, per fer aquest problema, hem d'anar mirant, per a cada tauler (o cas de prova), tant 1 com 2:
 
@@ -430,11 +430,11 @@ Aquest és el codi del problema:
 
 https://github.com/blackcub3s/ProgramaMe/blob/1bd74faa06046857b148d76b8f4b2a7d9d6547d4/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaD.java#L3-L93
 
-## Problema E: Código único
+## [Problema E: Código único](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 TO DO
 
-## Problema F: Identificando Componentes
+## [Problema F: Identificando Componentes](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 TO DO
 
@@ -471,7 +471,7 @@ El codi realitzat és:
 
 https://github.com/blackcub3s/ProgramaMe/blob/d28db10d6e24123658f714d12448c23319cd946e/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaG.java#L3-L61
 
-## Problema H: Recuperando tesoros
+## [Problema H: Recuperando tesoros](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 TO DO
 
