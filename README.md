@@ -19,7 +19,7 @@
    - [Problema "Acrónimos" (fàcil-intermig)](#problema-acrónimos-fàcil-intermig) 
    - [Problema "Curiosa Propiedad 9 (fàcil)"](#problema-curiosa-propiedad-9-fàcil)
 
-5. [2024 (Regional de València)](#5-2024-regional-de-valencia)
+5. [2024 (Regional de València)](#5-2024-regional-de-valència)
 
    - [Problema A: Secuencia digna](#problema-a-secuencia-digna)
    - [Problema B: Binario equilibrado (fàcil)](#problema-b-binario-equilibrado-fàcil)
