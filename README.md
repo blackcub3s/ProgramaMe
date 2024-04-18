@@ -27,7 +27,7 @@
    - [Problema D: 3 en raya FOREVER (intermig)](#problema-d-3-en-raya-forever-intermig)
    - [Problema E: Código único](#problema-e-código-único)
    - [Problema F: Identificando Componentes](#problema-f-identificando-componentes)
-   - [Problema G: Implementación de proyectos de software](#problema-g-implementación-de-proyectos-de-software)
+   - [Problema G: Implementación de proyectos de software (fàcil-intermig)](#problema-g-implementación-de-proyectos-de-software-fàcil-intermig)
    - [Problema H: Recuperando tesoros](#problema-h-recuperando-tesoros)
 
 
@@ -438,7 +438,9 @@ TO DO
 
 TO DO
 
-## Problema G: Implementación de proyectos de software
+## Problema G: Implementación de proyectos de software (fàcil-intermig)
+_
+_NOTA: Codi del problema G no testejat amb jutge online._
 
 El problema G l'he solucionat mitjançant un ```hashSet```. Per tenir eficiència computacional necessitem una estructura que guardi les habilitats dels desenvolupadors, eliminant-ne els repetits. També necessitem que pugui cercar de forma eficient cada una de les habilitats dels projectes, cosa que també pot fer el ```hashset```. 
 
@@ -457,7 +459,7 @@ PlataformaEducativa FULLSTACK UI/UX
 
 ```
 
-I la sortida correpsponent als mateixos:
+I la sortida corresponent als mateixos:
 
 ```
 POSIBLE
@@ -465,7 +467,9 @@ POSIBLE
 IMPOSIBLE
 ```
 
-NOTA: Aquesta versió funciona per als següents casos de prova públics. No s'ha testejat per al jutge online. Permet entrar més casos de prova si es vol ```sc.hasNext()
+El codi realitzat és:
+
+https://github.com/blackcub3s/ProgramaMe/blob/d28db10d6e24123658f714d12448c23319cd946e/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaG.java#L3-L61
 
 ## Problema H: Recuperando tesoros
 
