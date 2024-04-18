@@ -438,7 +438,7 @@ TO DO
 
 TO DO
 
-## Problema G: Implementación de proyectos de software (fàcil-intermig)
+## [Problema G: Implementación de proyectos de software (fàcil-intermig)](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 _NOTA: Codi del problema G no testejat amb jutge online._
 
