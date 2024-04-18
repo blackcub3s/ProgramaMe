@@ -439,12 +439,13 @@ TO DO
 TO DO
 
 ## Problema G: Implementación de proyectos de software (fàcil-intermig)
-_
+
 _NOTA: Codi del problema G no testejat amb jutge online._
 
-El problema G l'he solucionat mitjançant un ```hashSet```. Per tenir eficiència computacional necessitem una estructura que guardi les habilitats dels desenvolupadors, eliminant-ne els repetits. També necessitem que pugui cercar de forma eficient cada una de les habilitats dels projectes, cosa que també pot fer el ```hashset```. 
+El problema G l'he solucionat mitjançant un ```hashSet```. Per tenir eficiència computacional necessitem una estructura que guardi les habilitats dels desenvolupadors, eliminant-ne els repetits. També necessitem que pugui cercar de forma eficient cada una de les habilitats dels projectes, cosa que també pot fer el ```hashSet```. 
 
 Aquest són els casos de prova públics:
+
 ```
 5
 Alice FRONTEND BACKEND
@@ -456,7 +457,6 @@ Eva SECURITY
 SistemaGestion FRONTEND BACKEND DATABASE
 WebSegura SECURITY DATABASE
 PlataformaEducativa FULLSTACK UI/UX
-
 ```
 
 I la sortida corresponent als mateixos:
