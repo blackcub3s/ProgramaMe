@@ -15,7 +15,7 @@ public class PrimerEsquema_CasosConeguts {
         
         //llegeixo l enter que informa del nre de casos de prova totals (nCasos)
         int nCasos = sc.nextInt();
-        
+        sc.nextLine() //aquesta linia es pot ometre si el cas de prova no llegeix strings i nomes llegeix enters
         //menjo i tracto cada cas de prova amb la funciO corresponent
         for (int i = 0; i < nCasos; ++i) {
             casDeProva(sc);
