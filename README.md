@@ -347,6 +347,8 @@ https://github.com/blackcub3s/ProgramaMe/blob/fa4b0fc7bdeb88766656361667b9ddc89a
 
 Aquests problemes pertanyen a la programaMe regional de València organitzada per IES Serra Perenxisa (Torrent, València). En aquesta competició hi vaig participar presencialment amb un company en una aula de l'IES Abastos (els problemes dels apartats previs conformaven la preparació per aquesta competició). Vam aconseguir enviar correctament els problemes A, B i D (en equip de 2, el tercer integrant va faltar) dins les dues hores que teniem per a pujar-ho al jutge online de la competició.
 
+Per accedir als enunciats dels problemes podeu veure el PDF següent: [link](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
+
 ## [Problema A: Secuencia digna](https://github.com/blackcub3s/ProgramaMe/blob/main/IES%20Serra%20Perenxisa%20(Torrent%202024)/problemes%20regional%20valencia%202024.pdf)
 
 TO DO
