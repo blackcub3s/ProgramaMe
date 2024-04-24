@@ -357,7 +357,7 @@ TO DO
 
 Aquest és el problema tal qual es va enviar a la competició, amb veredicte AC. Per resoldre'l cal verificar que:
 1. El primer digit de cada cas de prova sigui igual al penúltim dígit del mateix i que el segon digit de cada cas de prova sigui igual a l'últim del mateix. Si no es dóna això, ja podem imprimir "ERROR" i anar a processar el següent cas de prova.
-2. Si es dóna l'anterior premisa, aleshores hem de mirar que el nombre de uns i de zeros de la següència o cas de prova sigui el mateix i imprimir que la sequència és "EQUILIBRADA".
+2. Si es dóna l'anterior premisa, aleshores hem de mirar que el nombre d'uns i de zeros de la següència o cas de prova sigui el mateix i imprimir que la sequència és "EQUILIBRADA".
 
 Cada cas de prova ocupa una línia i es llegeix pel CEE amb ```sc.nextLine()```, accendint després a cada caràcter (cada 1 o cada 0) amb la funció dels strings ```charAt()```. Aquest és el codi del problema:
 
@@ -424,7 +424,7 @@ https://github.com/blackcub3s/ProgramaMe/blob/95cdec8c4c52070c0b7a8059041f6d2819
 Aquest és el problema tal qual es va enviar a la competició, amb veredicte AC. Pot ser que no sigui el més elegant però és tal qual se va enviar i volia conservar-ho com a tal. Cal tenir en compte que, per fer aquest problema, hem d'anar mirant, per a cada tauler (o cas de prova), tant 1 com 2:
 
 1. Si algú ha tirat al centre (O o X)
-2. Si el que tira al centre es O, aquest jugador potencialment podrà arribar a tenir 5 tirades mentre que l'altre només 4 (ja que els jugadors tiren de forma alterna i el tauler té un nombre senar de caselles); i viceversa, si el que tira primer al centre es X això voldrà dir que X tindrà una tirada més que O. També es pot donar que un cas de prova o tauler tingui el mateix nombre de tirades tant de un com de l'altre (per exemple, perquè sigui una partida inacabada en que senzillament queda un torn per tirar en algun dels dos jugadors). Així doncs, a més a més de comprovar que un jugador (sigui O o X) hagi tirat al centre de la casella per descartar que la partida sigui "IMPOSIBLE" també cal que comprovar el seguent: si O ha tirat primer caldrà que es compleixi que  ```nO - nX == 1``` o bé que ```nO - nX == 0```. Anàlogament, si X ha tirat primer caldrà que es compleixi que ```nX - nO == 1``` o bé que ```nX - nO == 0```.
+2. Si el que tira al centre es O, aquest jugador potencialment podrà arribar a tenir 5 tirades mentre que l'altre només 4 (ja que els jugadors tiren de forma alterna i el tauler té un nombre senar de caselles); i viceversa, si el que tira primer al centre es X això voldrà dir que X tindrà una tirada més que O. També es pot donar que un cas de prova o tauler tingui el mateix nombre de tirades tant d'un com de l'altre (per exemple, perquè sigui una partida inacabada en que senzillament queda un torn per tirar en algun dels dos jugadors). Així doncs, a més a més de comprovar que un jugador (sigui O o X) hagi tirat al centre de la casella per descartar que la partida sigui "IMPOSIBLE" també cal que comprovar el seguent: si O ha tirat primer caldrà que es compleixi que  ```nO - nX == 1``` o bé que ```nO - nX == 0```. Anàlogament, si X ha tirat primer caldrà que es compleixi que ```nX - nO == 1``` o bé que ```nX - nO == 0```.
 
 Per llegir cada cas de prova (cada tauler de tres en ratlla) em fet servir tres cops la funció ```sc.nextLine()```.
 
@@ -444,7 +444,7 @@ TO DO
 
 _NOTA: Codi del problema G no testejat amb jutge online._
 
-Per tenir eficiència computacional en aquest problema necessitem una estructura de dades que ens guardi les habilitats d'un grup de desenvolupadors, eliminant-ne les habilitats repetides (només necessitem saber les habilitats que hi ha en el grup, no quants ni quins desenvolupadors les tenen). També necessitem una estructura de dades que pugui cercar de forma eficient cada una de les habilitats dels desenvolupadors guardades, a mesura que anem llegint pel canal estàndard d'entrada les habilitats que el grup de desenvolupadors necessita per resoldre cada un dels projectes que van entrant. Tot això ens ens ho permet fer un ```hashSet```. Les habilitats dels desenvolupadors les guardarem dins de  un set de Strings al que anomenarem ```tecDes```.
+Per tenir eficiència computacional en aquest problema necessitem una estructura de dades que ens guardi les habilitats d'un grup de desenvolupadors, eliminant-ne les habilitats repetides (només necessitem saber les habilitats que hi ha en el grup, no quants ni quins desenvolupadors les tenen). També necessitem una estructura de dades que pugui cercar de forma eficient cada una de les habilitats dels desenvolupadors guardades, a mesura que anem llegint pel canal estàndard d'entrada les habilitats que el grup de desenvolupadors necessita per resoldre cada un dels projectes que van entrant. Tot això ens ens ho permet fer un ```hashSet```. Les habilitats dels desenvolupadors les guardarem dins d'un set de Strings al que anomenarem ```tecDes```.
 
 Aquest són els casos de prova públics (en l'exemple següent tenim un grup amb 5 desenvolupadors -en majúscules les habilitats, els noms no són rellevants-):
 
