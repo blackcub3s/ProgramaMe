@@ -444,9 +444,9 @@ TO DO
 
 _NOTA: Codi del problema G no testejat amb jutge online._
 
-El problema G l'he solucionat mitjançant un ```hashSet```. Per tenir eficiència computacional necessitem una estructura que guardi les habilitats dels desenvolupadors, eliminant-ne els repetits. També necessitem que pugui cercar de forma eficient cada una de les habilitats dels projectes, cosa que també pot fer el ```hashSet```. 
+Per tenir eficiència computacional en aquest problema necessitem una estructura de dades que ens guardi les habilitats d'un grup de desenvolupadors, eliminant-ne les habilitats repetides (només necessitem saber les habilitats que hi ha en el grup, no quants ni quins desenvolupadors les tenen). També necessitem una estructura de dades que pugui cercar de forma eficient cada una de les habilitats dels desenvolupadors guardades, a mesura que anem llegint pel canal estàndard d'entrada les habilitats que el grup de desenvolupadors necessita per resoldre cada un dels projectes que van entrant. Tot això ens ens ho permet fer un ```hashSet```. Les habilitats dels desenvolupadors les guardarem dins de  un set de Strings al que anomenarem ```tecDes```.
 
-Aquest són els casos de prova públics:
+Aquest són els casos de prova públics (en l'exemple següent tenim un grup amb 5 desenvolupadors -en majúscules les habilitats, els noms no són rellevants-):
 
 ```
 5
@@ -461,7 +461,7 @@ WebSegura SECURITY DATABASE
 PlataformaEducativa FULLSTACK UI/UX
 ```
 
-I la sortida corresponent als mateixos:
+I la sortida corresponent als mateixos ha de ser:
 
 ```
 POSIBLE
@@ -469,7 +469,7 @@ POSIBLE
 IMPOSIBLE
 ```
 
-El codi realitzat és:
+El codi realitzat que resolt el problema de forma eficient és:
 
 https://github.com/blackcub3s/ProgramaMe/blob/d28db10d6e24123658f714d12448c23319cd946e/IES%20Serra%20Perenxisa%20(Torrent%202024)/ProblemaG.java#L3-L61
 
